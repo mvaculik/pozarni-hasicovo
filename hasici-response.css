@@ -1,0 +1,3925 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+/* ==========================
+PC VERSION
+========================== */
+
+#footer {
+    display: none;
+}
+select {
+    border-radius: 6px;
+    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07);
+    min-width: 117px;
+    height: 38px;
+    flex-shrink: 0;
+    border-color: transparent;
+}
+@media only screen and (min-width: 1024px) {
+    /* dialogs */
+    div.pb-2{
+        display: none;
+        /* display: block;
+        position: absolute;
+        bottom: 57px;
+        background: #2C2C2C;
+        color: #FFF;
+        text-align: center;
+        font-family: Nunito;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 17px;
+        padding: 10px 15px; */
+    }
+    nav {
+        min-width: 100%;
+    }
+    nav div.flex.h-16.mx-auto.text-base.justify-between {
+        max-width: 80%;
+    }
+    main.mt-0 div.container.mx-auto {
+        max-width: 80%;
+    }
+    /* profile racer */
+    main.mt-0 div.container.mx-auto div.flex.p-2.shadow.items-center.font-bold.uppercase.bg-gray-700.text-white.justify-center.w-full.mb-3 {
+        background: none;
+        border: none;
+        box-shadow: none;
+        position: relative;
+        top: 59px;
+        display: none;
+    }
+    main.mt-0 div.container.mx-auto div.flex.p-2.shadow.items-center.font-bold.uppercase.bg-gray-700.text-white.justify-center.w-full.mb-3 div.text-normal {
+        color: #B91C1C;
+        font-family: 'Nunito';
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: initial;
+        position: relative;
+        left: 141px;
+        z-index: 10;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.space-y-4.w-full {
+        position: relative;
+        height: auto;
+        margin: 59px 0 100px 0;
+    }
+    /* profile - img */
+    main.mt-0 div.container.mx-auto div.flex.flex-col.space-y-4.w-full div.flex.flex-col.border.p-2.shadow.bg-gray-100.items-center.w-full div div.w-full div.italic.text-sm.border.h-72.w-52.text-center.shadow.flex.flex-col.space-y-4.bg-gray-100 {
+        margin: 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0;
+        width: 100%;
+        height: auto;
+        max-width: 365px;
+        background: none;
+        border: none;
+        box-shadow: none;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.space-y-4.w-full div.flex.flex-col.border.p-2.shadow.bg-gray-100.items-center.w-full div div.w-full div.italic.text-sm.border.h-72.w-52.text-center.shadow.flex.flex-col.space-y-4.bg-gray-100 img {
+        max-width: 100%;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.space-y-4.w-full div.flex.flex-col.border.p-2.shadow.bg-gray-100.items-center.w-full div div.w-full div img {
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.space-y-4.w-full div.flex.flex-col.border.p-2.shadow.bg-gray-100.items-center.w-full div div.w-full div.italic.text-sm.border.h-72.w-52.text-center.shadow.flex.flex-col.space-y-4.bg-gray-100 span {
+        margin: 0;
+        padding: 16px 8px;
+        width: 100%;
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    /* profile - info */
+    main.mt-0 div.container.mx-auto div.flex.flex-col.space-y-4.w-full div.flex.flex-col.border.p-2.shadow.bg-gray-100.items-center.w-full {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        max-width: fit-content;
+        background: none;
+        box-shadow: none;
+        border: none;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.space-y-4.w-full div.flex.flex-col.border.p-2.shadow.bg-gray-100.items-center.w-full div:nth-of-type(2) {
+        border-radius: 8px;
+        background: #EFEFEF;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07);
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.space-y-4.w-full div.flex.flex-col.border.p-2.shadow.bg-gray-100.items-center.w-full div:nth-of-type(2) div.flex.space-x-2:nth-of-type(even) {
+        background: #F5F5F5;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.space-y-4.w-full div.flex.flex-col.border.p-2.shadow.bg-gray-100.items-center.w-full div div.flex.space-x-2 {
+        margin: 0;
+        min-width: 365px;
+        height: auto;
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.space-y-4.w-full div.flex.flex-col.border.p-2.shadow.bg-gray-100.items-center.w-full div:nth-of-type(2) div.flex.space-x-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        background: transparent;
+        border: none;
+        padding: 0 15px;
+        box-shadow: none;
+        border-radius: 0;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.space-y-4.w-full div.flex.flex-col.border.p-2.shadow.bg-gray-100.items-center.w-full div:nth-of-type(2) div.flex.space-x-2 div.font-bold {
+        padding: 0;
+        margin: 0;
+        width: 50%;
+        text-align: left;
+        display: block;
+        background: transparent;
+        border: none;
+        box-shadow: none;
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 46px;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.space-y-4.w-full div.flex.flex-col.border.p-2.shadow.bg-gray-100.items-center.w-full div:nth-of-type(2) div.flex.space-x-2 div.text-uppercase {
+        padding: 0;
+        margin: 0;
+        width: 50%;
+        text-align: left;
+        background: transparent;
+        border: none;
+        box-shadow: none;
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 46px;
+    }
+    /* profile - medails */
+    main.mt-0 div.container.mx-auto div.flex.flex-col.space-y-4.w-full div.w-full.border.shadow.bg-gray-100:nth-of-type(2) {
+        margin: 0 0 0 39px;
+        background: none;
+        border: none;
+        box-shadow: none;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.space-y-4.w-full div.text-center.text-xs.my-4.border.shadow.bg-gray-100.px-2.w-full {
+        position: absolute;
+        bottom: -40px;
+        left: 8px;
+        width: 365px;
+        flex-shrink: 0;
+        margin: 0;
+        padding: 0 15px;
+        display: flex;
+        flex-direction: row;
+        background: none;
+        box-shadow: none;
+        border: none;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.space-y-4.w-full div.text-center.text-xs.my-4.border.shadow.bg-gray-100.px-2.w-full div {
+        padding: 0;
+        margin: 0;
+        width: 50%;
+        text-align: left;
+        background: transparent;
+        border: none;
+        box-shadow: none;
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.space-y-4.w-full div.text-center.text-xs.my-4.border.shadow.bg-gray-100.px-2.w-full div.text-gray-700 {
+        padding: 0;
+        margin: 0;
+        width: 50%;
+        text-align: left;
+        display: block;
+        background: transparent;
+        border: none;
+        box-shadow: none;
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px;
+    }
+    /* table - medals */
+    main.mt-0 div.container.mx-auto div.flex.flex-col.space-y-4.w-full div.w-full.border.shadow.bg-gray-100:nth-of-type(2) table.w-full tbody tr {
+        background: #EFEFEF;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.space-y-4.w-full div.w-full.border.shadow.bg-gray-100:nth-of-type(2) table.w-full tbody tr:nth-of-type(even) {
+        background: #F5F5F5;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.space-y-4.w-full div.w-full.border.shadow.bg-gray-100:nth-of-type(2) table.w-full tbody tr:last-child {
+        border-radius: 0px 0px 8px 8px;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07);
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.space-y-4.w-full div.w-full.border.shadow.bg-gray-100:nth-of-type(2) table.w-full tbody tr td {
+        border: none;
+        box-shadow: none;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.space-y-4.w-full div.w-full.border.shadow.bg-gray-100:nth-of-type(2) table.w-full tbody tr.border.border-gray-400.text-center.font-bold {
+        background: none;
+        border: none;
+        box-shadow: none;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.space-y-4.w-full div.w-full.border.shadow.bg-gray-100:nth-of-type(2) table.w-full tbody tr.border.border-gray-400.text-center.font-bold td.px-2.py-2.bg-yellow-200 {
+        background: none;
+        border: none;
+        box-shadow: none;
+        color: #B91C1C;
+        font-family: 'Nunito';
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 21px;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.space-y-4.w-full div.w-full.border.shadow.bg-gray-100:nth-of-type(2) table.w-full tbody tr {
+        display: flex;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.space-y-4.w-full div.w-full.border.shadow.bg-gray-100:nth-of-type(2) table.w-full tbody tr td {
+        width: 100%;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.space-y-4.w-full div.w-full.border.shadow.bg-gray-100:nth-of-type(2) table.w-full tbody tr.border.text-center.bg-yellow-100 {
+        border-radius: 8px 8px 0px 0px;
+        background: #B91C1C;
+        color: #fff;
+        border: none;
+        box-shadow: none;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.space-y-4.w-full div.w-full.border.shadow.bg-gray-100:nth-of-type(2) table.w-full tbody tr.border.text-center.bg-yellow-100 td.py-1.border.border-gray-400 {
+        border: none;
+        box-shadow: none;
+    }
+    /* remove hr */
+    main.mt-0 div.container.mx-auto hr.my-2 {
+        display: none;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.my-6 div.my-4 div.flex.border-b.bg-yellow-200.text-xs {
+        border-radius: 8px 8px 0px 0px;
+        background: #B91C1C;
+        color: #FFF;
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+        padding: 10px 25px;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.my-6 div.my-4 div.flex.border-b.bg-yellow-200.text-xs div.flex.flex-col.text-xs.py-1.font-bold div {
+       text-align: left;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.my-6 div.my-4 div.flex.space-x-2.border-b.text-xs.py-1 {
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding: 10px 25px;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.my-6 div.my-4 div.flex.space-x-2.border-b.text-xs.py-1:nth-of-type(even) {
+        background: #EFEFEF;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.my-6 div.my-4 div.flex.space-x-2.border-b.text-xs.py-1:nth-of-type(odd) {
+        background: #F5F5F5;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.my-6 div.my-4 div.flex.space-x-2.border-b.text-xs.py-1:last-child {
+        border-radius: 0px 0px 8px 8px;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.my-6 div.my-4 div.flex.space-x-2.border-b.text-xs.py-1 div.flex.flex-col div {
+        text-align: left;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.my-6 div.my-4 div.flex.space-x-2.border-b.text-xs.py-1 a {
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+
+
+
+
+/* ==========================
+MOBILE VERSION
+========================== */
+@media only screen and (max-width: 1023px) {
+    #custom-menu .custom-menu-icon {
+        display: flex !important;
+    }
+    #custom-menu .custom-menu-icon div {
+        font-size: 12px;
+    }
+    #custom-menu div.px-2 {
+        padding: .5rem;
+        background: transparent;
+        border: none;
+    }
+    #footer {
+        display: block !important;
+        position: absolute;
+        bottom: -60px;
+        width: 100%;
+        height: 60px;
+    }
+    /* remove hr */
+    body hr {
+        display: none;
+    }
+    /* full page */
+    #app {
+        position: relative;
+        background: #F3F3F3;
+        /*min-height: 3931px; /*uff*/
+    }
+    /* dialogs -> Hasičovo SPORT je volně dostupný... & Možnost založit soutěž/ligu... */
+    div.pb-2{
+        display: none;
+    }
+    div.px-2 {
+        padding: 0;
+        background: #efefef;
+    }
+    /* Logo */
+    div.py-4 a img.h-20 {
+        height: 48px;
+        position: absolute;
+        z-index: 10;
+        top: 18px;
+        left: 15px;
+    }
+    /* navbar */
+    nav.bg-gradient-to-r {
+        position: absolute;
+        top: 4px;
+        left: 0;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        background: #fff;
+        height: 72px;
+        min-width: 100%;
+    }
+    /* navbar mobile menu btn */
+    nav.bg-gradient-to-r .h-16 {
+        margin: 0;
+    }
+    nav.bg-gradient-to-r div.h-16 div.mr-4 {
+        padding: 0 17px;
+        margin: 0px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    nav.bg-gradient-to-r div.h-16 div.mr-4::after {
+        content: "Menu";
+        color: #000;
+        font-size: 12px;
+        font-weight: 400;
+        font-style: normal;
+    }
+    nav.bg-gradient-to-r div.h-16 div.mr-4 button.p-2 {
+        padding: 0;
+        margin: 0;
+        background: none;
+    }
+    nav.bg-gradient-to-r div.h-16 div.mr-4 button.p-2 svg{
+        color: #000;
+    }
+    /* menu content */
+    nav div.flex.items-center div.block.py-1 {
+        position: absolute;
+        right: -0px;
+        left: auto;
+        top: 68px;
+        width: max-content;
+        padding: 12px 27px;
+        border-radius: 8px 0 8px 8px;
+        min-width: 179px;
+        text-align: left;
+    }
+    nav div.flex.items-center div.block.py-1::before {
+        content: "" ;
+        position: absolute ;
+        top: -13px ;
+        right: 10px ;
+        transform: translateX(-50%) ;
+        width: 0 ;
+        height: 0 ;
+        border-left: 11px solid transparent ;
+        border-right: 11px solid transparent ;
+        border-bottom: 10px solid #B91C1C ;
+    }
+    /* links in menu */
+    nav div.flex.items-center div.block.py-1 a {
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 36px;
+        font-style: normal;
+    }
+    nav div.flex.items-center div.block.py-1 a:hover {
+        font-weight: 700;
+    }
+    /* register and log in - figma design */
+    div.mx-auto.py-4.flex.flex-col.items-center.justify-center div.flex.flex-col.items-center.justify-end {
+        width: 100%;
+    }
+    div.mx-auto.py-4.flex.flex-col.items-center.justify-center div.flex.flex-col.items-center.justify-end div.flex.mx-auto {
+        z-index: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        right: auto;
+        left: auto;
+        top: 32px;
+        width: 100%;
+        padding: 12px 27px;
+        border-radius: 0 0 8px 8px;
+        min-width: auto;
+        text-align: left;
+        background: #B91C1C;
+    }
+    div.mx-auto.py-4.flex.flex-col.items-center.justify-center div.flex.flex-col.items-center.justify-end div.flex.space-x-4.mb-4.mx-auto {
+        display: none;
+    }
+    /*
+    div.py-4 div.items-center div.flex {
+        z-index: 11 ;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        position: absolute ;
+        right: 0px ;
+        left: auto ;
+        top: 76px ;
+        width: auto ;
+        padding: 12px 27px ;
+        border-radius: 8px 0 8px 8px ;
+        min-width: 179px ;
+        text-align: left ;
+        background: #B91C1C;
+    }
+    */
+    div.py-4 div.items-center div.flex::before {
+        content: "" ;
+        position: absolute ;
+        top: -13px ;
+        right: 78px ;
+        transform: translateX(-50%) ;
+        width: 0 ;
+        height: 0 ;
+        border-left: 11px solid transparent ;
+        border-right: 11px solid transparent ;
+        border-bottom: 10px solid #B91C1C ;
+    }
+    #custom-menu::before {
+        display: none;
+    }
+    #custom-menu div.flex.custom-menu-links::before {
+        content: "" ;
+        position: absolute ;
+        top: -13px ;
+        right: 78px ;
+        transform: translateX(-50%) ;
+        width: 0 ;
+        height: 0 ;
+        border-left: 11px solid transparent ;
+        border-right: 11px solid transparent ;
+        border-bottom: 10px solid #B91C1C ;
+    }
+    #custom-menu .custom-menu-icon span {
+        font-size: 12px;
+    }
+    div.py-4 div.items-center div.flex img{
+        display: none;
+    }
+    div.py-4 div.items-center div.flex div a {
+        font-size: 17px ;
+        font-weight: 700 ;
+        line-height: 36px ;
+        font-style: normal ;
+        background: transparent;
+        box-shadow: none;
+        --tw-shadow: none;
+        --tw-shadow-colored: none;
+        padding: 0;
+        margin: 0;
+    }
+    div.py-4 div.items-center div.flex div a svg{
+        display: none;
+    }
+    div.py-4 div.items-center div.space-x-4 {
+        display: none;
+    }
+    main div.container.mx-auto div.mb-4 {
+        text-align: center;
+        margin: 25px 0;
+        /*
+        text-align: right;
+        margin: 25px 15px;
+        */
+    }
+    main div.container.mx-auto div.mb-4 a.bg-gradient-to-r.from-red-600.to-red-800.p-2.text-white.rounded-sm.w-auto.shadow-lg {
+        border-radius: 6px;
+        background: linear-gradient(270deg, #DC2626 0%, #991B1B 100%);
+        box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.16);
+        color: #FFF;
+        text-align: center;
+        font-family: 'Nunito';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    /*=====================
+    ALL - PAGE 
+    =====================*/
+    /* section of content */
+    main.mt-6 div.container section.flex div.rounded {
+        background: transparent;
+    }
+    main.mt-8 {
+        margin-top: 15px;
+    }
+    /*=====================
+    UVODNI - PAGE 
+    =====================*/
+    /* title of race */
+    main.mt-8 div.container div.flex div.flex-col section h3.mb-4 {
+        padding: 32px 0 20px 0;
+        color: #000;
+        font-size: 20px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+        background: transparent;
+        margin: 0;
+    }
+    /* races */
+    main.mt-8 div.container div.flex div.flex-col section div.grid a.pb-4.rounded-sm {
+        margin: 5px 15px;
+        padding: 14px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        min-height: 106px;
+        border: none;
+        position: relative;
+    }
+    main.mt-8 div.container div.flex div.flex-col section div.grid.auto-cols-fr.gap-2.mb-6 {
+        gap: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    main.mt-8 div.container div.flex div.flex-col section div.grid a.pb-4.rounded-sm::after {
+        content: url(https://matej.webotvurci.cz/pozarnisporthasicovo-ikony/8665195_chevron_right_icon.svg);
+        position: absolute;
+        top: 40%;
+        right: 25px;
+        width: 0;
+        height: 0;
+    }
+    main.mt-8 div.container div.flex div.flex-col section div.grid div.flex {
+        margin: 5px 15px ;
+        padding: 14px ;
+        background: #fff ;
+        border-radius: 10px ;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07) ;
+        display: flex ;
+        flex-direction: column ;
+        justify-content: center ;
+        align-items: flex-start ;
+        min-height: 106px ;
+        border: none ;
+        position: relative;
+    }
+    main.mt-8 div.container div.flex div.flex-col section div.grid div.flex div.mb-3.h-24 {
+        width: 179px ;
+        left: 62px ;
+        padding: 0 ;
+        position: relative ;
+        background: none ;
+        color: #000 ;
+        font-size: 14px ;
+        height: auto ;
+        font-weight: 700 ;
+        line-height: normal ;
+        margin: 0 ;
+        text-align: left ;
+        font-family: 'Nunito' ;
+        text-transform: capitalize ;
+    }
+    main.mt-8 div.container div.flex div.flex-col section div.grid div.flex div.mb-3.h-24 a {
+        color: #000 ;
+        font-size: 14px ;
+        height: auto ;
+        font-weight: 700 ;
+        line-height: normal ;
+        text-align: left ;
+        font-family: 'Nunito' ;
+        text-transform: capitalize ;
+    }
+    main.mt-8 div.container div.flex div.flex-col section div.grid div.flex div:nth-of-type(2) {
+        width: auto ;
+        position: absolute ;
+        display: flex ;
+        padding: 28px 12px ;
+        top: 0 ;
+        left: 0 ;
+        height: 100% ;
+        justify-content: center ;
+        align-items: center ;
+    }
+    main.mt-8 div.container div.flex div.flex-col section div.grid div.flex div:nth-of-type(2) img.object-fill.w-44 {
+        max-width: 50px ;
+        height: auto ;
+    }
+    main.mt-8 div.container div.flex div.flex-col section div.grid div.flex div:nth-of-type(3) {
+        width: 179px ;
+        left: 62px ;
+        padding: 0 ;
+        position: relative ;
+        background: none ;
+        color: #000 ;
+        font-size: 12px ;
+        height: auto ;
+        font-weight: 400 ;
+        line-height: normal ;
+        margin: 0 ;
+        text-align: left ;
+        font-family: 'Nunito' ;
+        display: flex ;
+        flex-direction: column ;
+        justify-content: flex-start ;
+    }
+    main.mt-8 div.container div.flex div.flex-col section div.grid div.flex div:nth-of-type(3) div:nth-of-type(1) {
+        margin: 0 ;
+        margin-top: 3px ;
+    }
+    main.mt-8 div.container div.flex div.flex-col section div.grid div.flex div:nth-of-type(3) div:nth-of-type(2) {
+        position: relative ;
+        padding: 0 ;
+        margin: 3px 0 0 0 ;
+        display: block ;
+        height: auto ;
+    }
+    main.mt-8 div.container div.flex div.flex-col section div.grid div.flex::after {
+        content: url(https://matej.webotvurci.cz/pozarnisporthasicovo-ikony/8665195_chevron_right_icon.svg);
+        position: absolute;
+        top: 40%;
+        right: 25px;
+        width: 0;
+        height: 0;
+    }
+    main.mt-8 div.container div.flex div.flex-col.w-full section.mb-4 {
+        margin-top: 0;
+        margin-bottom: 1.5rem;
+    }
+    main.mt-8 div.container div.flex div.flex-col.w-full section.my-6 {
+        margin-top: 0;
+        margin-bottom: 1.5rem;
+    }
+    /* calendar - section*/
+    main.mt-8 div.container div.flex div.flex-col.w-full {
+        padding: 0;
+    }
+    /* calendar - first section - mb-4 */
+    main.mt-8 div.container div.flex div.flex-col.w-full section.mb-4 h4.font-bold {
+        padding: 32px 0 20px 0;
+        color: #000;
+        font-size: 20px;
+        /* font-family: Nunito; */
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+        background: transparent;
+        margin: 0;
+    }
+    /* calendar - first section - table */
+    main.mt-8 div.container div.flex div.flex-col.w-full section.mb-4 table tbody{
+        display: flex;
+        padding: 0px;
+        flex-direction: column;
+    }
+    main.mt-8 div.container div.flex div.flex-col.w-full section.mb-4 table tbody tr{
+        margin: 5px 15px ;
+        padding: 14px ;
+        background: #fff ;
+        border-radius: 10px ;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07) ;
+        display: flex ;
+        flex-direction: column-reverse;
+        justify-content: center ;
+        align-items: flex-start ;
+        min-height: 106px ;
+        border: none ;
+        position: relative ;
+    }
+    main.mt-8 div.container div.flex div.flex-col.w-full section.mb-4 table tbody tr td {
+        width: 233px;
+        padding: 0 4px;
+    }
+    main.mt-8 div.container div.flex div.flex-col.w-full section.mb-4 table tbody tr td:nth-of-type(2){
+        color: #000 ;
+        font-size: 14px ;
+        height: auto ;
+        font-weight: 700 ;
+        line-height: normal ;
+        text-align: left ;
+        font-family: 'Nunito' ;
+        text-transform: capitalize ;
+    }
+    main.mt-8 div.container div.flex div.flex-col.w-full section.mb-4 table tbody tr td:nth-of-type(1){
+        color: #000 ;
+        font-size: 12px ;
+        font-weight: 400 ;
+        line-height: normal ;
+        text-align: left ;
+        font-family: 'Nunito' ;
+        margin-top: 3px ;
+    }
+    main.mt-8 div.container div.flex div.flex-col.w-full section.mb-4 table tbody tr td:nth-of-type(3){
+        display: none;
+    }
+    main.mt-8 div.container div.flex div.flex-col.w-full section.mb-4 table tbody tr::after {
+        content: url(https://matej.webotvurci.cz/pozarnisporthasicovo-ikony/8665195_chevron_right_icon.svg);
+        position: absolute;
+        top: 40%;
+        right: 25px;
+        width: 0;
+        height: 0;
+    }
+    /* calendar section - my-6 */
+    main.mt-8 div.container div.flex div.flex-col.w-full section.my-6 h4.font-bold {
+        padding: 32px 0 23px 0;
+        color: #000;
+        font-size: 20px;
+        /* font-family: Nunito; */
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+        background: transparent;
+        margin: 0;
+    }
+    main.mt-8 div.container div.flex div.flex-col.w-full section.my-6 table tbody{
+        display: flex;
+        padding: 0px;
+        flex-direction: column;
+    }
+    main.mt-8 div.container div.flex div.flex-col.w-full section.my-6 table tbody tr{
+        margin: 5px 15px ;
+        padding: 14px ;
+        background: #fff ;
+        border-radius: 10px ;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07) ;
+        display: flex ;
+        flex-direction: column;
+        justify-content: center ;
+        align-items: flex-start ;
+        min-height: 106px ;
+        border: none ;
+        position: relative ;
+    }
+    main.mt-8 div.container div.flex div.flex-col.w-full section.my-6 table tbody tr td {
+        width: 233px;
+        padding: 0 4px;
+    }
+    main.mt-8 div.container div.flex div.flex-col.w-full section.my-6 table tbody tr td:nth-of-type(1){
+        color: #000 ;
+        font-size: 14px ;
+        height: auto ;
+        font-weight: 700 ;
+        line-height: normal ;
+        text-align: left ;
+        font-family: 'Nunito' ;
+        text-transform: capitalize ;
+    }
+    main.mt-8 div.container div.flex div.flex-col.w-full section.my-6 table tbody tr td:nth-of-type(2){
+        display: none;
+    }
+    main.mt-8 div.container div.flex div.flex-col.w-full section.my-6 table tbody tr::after {
+        content: url(https://matej.webotvurci.cz/pozarnisporthasicovo-ikony/8665195_chevron_right_icon.svg);
+        position: absolute;
+        top: 40%;
+        right: 25px;
+        width: 0;
+        height: 0;
+
+    }
+    main.mt-8 div.container div.flex div.flex-col.w-full section.my-6:nth-of-type(2) table tbody{
+        display: flex;
+        padding: 0px;
+        flex-direction: column;
+    }
+    main.mt-8 div.container div.flex div.flex-col.w-full section.my-6:nth-of-type(2) table tbody tr{
+        margin: 5px 15px ;
+        padding: 14px ;
+        background: #fff ;
+        border-radius: 10px ;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07) ;
+        display: flex ;
+        flex-direction: column-reverse;
+        justify-content: center ;
+        align-items: flex-start ;
+        min-height: 106px ;
+        border: none ;
+        position: relative ;
+    }
+    main.mt-8 div.container div.flex div.flex-col.w-full section.my-6:nth-of-type(2) table tbody tr td {
+        width: 233px;
+        padding: 0 4px;
+    }
+    main.mt-8 div.container div.flex div.flex-col.w-full section.my-6:nth-of-type(2) table tbody tr td:nth-of-type(2){
+        display: block ;
+        color: #000 ;
+        font-size: 14px ;
+        height: auto ;
+        font-weight: 700 ;
+        line-height: normal ;
+        text-align: left ;
+        font-family: 'Nunito' ;
+        text-transform: capitalize ;
+    }
+    main.mt-8 div.container div.flex div.flex-col.w-full section.my-6:nth-of-type(2) table tbody tr td:nth-of-type(1){
+        color: #000 ;
+        font-size: 12px ;
+        font-weight: 400 ;
+        line-height: normal ;
+        text-align: left ;
+        font-family: 'Nunito' ;
+        margin-top: 3px ;
+    }
+    main.mt-8 div.container div.flex div.flex-col.w-full section.my-6:nth-of-type(2) table tbody tr td:nth-of-type(3){
+        display: none;
+    }
+    main.mt-8 div.container div.flex div.flex-col.w-full section.my-6:nth-of-type(2) table tbody tr::after {
+        content: url(https://matej.webotvurci.cz/pozarnisporthasicovo-ikony/8665195_chevron_right_icon.svg);
+        position: absolute;
+        top: 40%;
+        right: 25px;
+        width: 0;
+        height: 0;
+    }
+    /* button load/show all races */
+    main.mt-8 div.container div.flex div.flex-col.w-full section.mb-6 {
+        text-align: center;
+    }
+    main.mt-8 div.container div.flex div.flex-col.w-full section.mb-6 a {
+        border-radius: 6px;
+        background: linear-gradient(270deg, #DC2626 0%, #991B1B 100%);
+        box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.16);
+        color: #FFF;
+        text-align: center;
+        font-size: 16px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding: 12px 20px;
+    }
+    main.mt-8 div.container div.flex div.flex-col section div.grid a div.block.text-lg {
+        width: 179px;
+        left: 62px;
+        padding: 0;
+        position: relative;
+        background: none;
+        color: #000;
+        font-size: 14px;
+        height: auto;
+        font-weight: 700;
+        line-height: normal;
+        margin: 0;
+        text-align: left;
+        font-family: 'Nunito';
+        text-transform: capitalize;
+    }
+    /* img of race */
+    main.mt-8 div.container div.flex div.flex-col section div.grid a div:nth-of-type(2){
+        width: auto;
+        position: absolute;
+        display: flex;
+        padding: 28px 12px;
+        top: 0;
+        left: 0;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    main.mt-8 div.container div.flex div.flex-col section div.grid a div img.my-5 {
+        max-width: 50px;
+        height: auto;
+    }
+    /* title of race */
+    main.mt-8 div.container div.flex div.flex-col section div.grid a div:nth-of-type(3) {
+        width: 179px;
+        left: 62px;
+        padding: 0;
+        position: relative;
+        background: none;
+        color: #000;
+        font-size: 12px;
+        height: auto;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        text-align: left;
+        font-family: 'Nunito';
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    main.mt-8 div.container div.flex div.flex-col section div.grid a div:nth-of-type(3) div:nth-of-type(1) {
+        margin: 0;
+        margin-top: 3px;
+    }
+    main.mt-8 div.container div.flex div.flex-col section div.grid a div:nth-of-type(3) div:nth-of-type(2) {
+        position: relative ;
+        padding: 0;
+        margin: 3px 0 0 0;
+        display: block ;
+        height: auto ;
+    }
+    main.mt-8 div.container div.flex div.flex-col section div.grid a div:nth-of-type(3) div:nth-of-type(3) {
+        position: relative;
+        padding: 0;
+        margin: 3px 0 0 0;
+        display: none; /* CHANGE TO BLOCK AFTER NECESSARY CHANGES*/
+        height: auto;
+        margin-top: 3px;
+        font-weight: 600;
+    }
+    main.mt-8 div.container div.flex div.flex-col section div.grid a div:nth-of-type(3) div:nth-of-type(4) {
+        position: relative;
+        padding: 0;
+        margin: 3px 0 0 0;
+        display: none; /* CHANGE TO BLOCK AFTER NECESSARY CHANGES*/
+        height: auto;
+    }
+    /*=====================
+    ZAVODY - PAGE 
+    =====================*/
+    /* title of race */
+    main.mt-6 div.container section.flex {
+        width: 100%;
+    }
+    main.mt-6 div.container section.flex div.rounded h3.leading-normal.p-2 {
+        padding: 32px 0 20px 0;
+        color: #000;
+        font-size: 20px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+        background: transparent;
+        margin: 0;
+    }
+    main.mt-6 div.container section.flex div.shadow {
+        box-shadow: none;
+        padding: 0;
+        border: none;
+    } 
+    /* race */
+    main.mt-6 div.container section.flex div.rounded div.flex.items-center {
+        margin: 10px 15px ;
+        padding: 14px ;
+        background: #fff ;
+        border-radius: 10px ;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07) ;
+        display: flex ;
+        flex-direction: column-reverse;
+        justify-content: center ;
+        align-items: flex-start ;
+        min-height: 106px ;
+        border: none ;
+        position: relative ;
+    }
+    main.mt-6 div.container section.flex div.rounded div.flex.items-center div.flex.w-full {
+        margin: 0;
+        padding: 0;
+        background: #fff ;
+        display: flex ;
+        flex-direction: column;
+        justify-content: center ;
+        align-items: flex-start ;
+        border: none ;
+        position: relative ;
+        width: 90%;
+    }
+    /* hidden logo */
+    main.mt-6 div.container section.flex div.rounded div.flex.items-center div.flex.w-full div.p-2.hidden {
+        width: auto;
+        position: absolute;
+        display: flex;
+        padding: 0;
+        top: 0;
+        left: 0;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    main.mt-6 div.container section.flex div.rounded div.flex.items-center div.flex.w-full div.p-2.hidden img {
+        max-width: 50px;
+        height: auto;
+    }
+    main.mt-6 div.container section.flex div.rounded div.flex.items-center div.flex.w-full div.text-left {
+        width: 179px;
+        left: 62px;
+        padding: 0;
+        position: relative;
+        background: none;
+        height: auto;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-transform: initial;
+    }
+    main.mt-6 div.container section.flex div.rounded div.flex.items-center div.flex.w-full div:nth-of-type(2) {
+        order: 3;
+        color: #000;
+        font-size: 12px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 3px 0 0 0;
+    }
+    main.mt-6 div.container section.flex div.rounded div.flex.items-center div.flex.w-full div:nth-of-type(3) {
+        order: 2;
+        color: #000;
+        font-size: 12px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 3px 0 0 0;
+    }
+    main.mt-6 div.container section.flex div.rounded div.flex.items-center div.flex.w-full div:nth-of-type(4) {
+        order: 1;
+        color: #000;
+        font-size: 14px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 0;
+    }
+    main.mt-6 div.container section.flex div.rounded div.flex.items-center div.flex.w-full div:nth-of-type(5) {
+        order: 4;
+        color: #000;
+        font-size: 12px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 3px 0 0 0;
+    }
+    /* button - more.. */
+    main.mt-6 div.container section.flex div.rounded div.flex.items-center div.flex.my-2 {
+        position: absolute;
+        top: 0;
+        right: 0px ;
+        border: none ;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        border-radius: 10px ;
+    }
+    main.mt-6 div.container section.flex div.rounded div.flex.items-center div.flex.my-2 div {
+        position: absolute;
+        top: 0;
+        right: 0px ;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        border-radius: 10px ;
+    }
+    
+    main.mt-6 div.container section.flex div.rounded div.flex.items-center div.flex.my-2 div a {
+        position: absolute;
+        top: 0;
+        right: 0px ;
+        border: none ;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background: none;
+        border-radius: 10px ;
+    }
+    main.mt-6 div.container section.flex div.rounded div.flex.items-center div.flex.my-2 div form {
+        display: none !important;
+    }
+    main.mt-6 div.container section.flex div.rounded div.flex.items-center div.flex.my-2 div a::after {
+        content: url(https://matej.webotvurci.cz/pozarnisporthasicovo-ikony/8665195_chevron_right_icon.svg);
+        position: absolute;
+        top: 40%;
+        right: 25px;
+        width: 0;
+        height: 0;
+    }
+    /* section - past races */
+    section.flex.w-full div.shadow div.my-5 nav.flex div.flex.flex-1 span {
+        border-radius: 6px;
+        background: #C7C7C7;
+        color: #FFF;
+        text-align: center;
+        font-size: 16px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding: 12px 20px ;
+        border: none;
+    }
+    section.flex.w-full div.shadow div.my-5 nav.flex div.flex.flex-1 a {
+        border-radius: 6px;
+        background: linear-gradient(270deg, #DC2626 0%, #991B1B 100%);
+        box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.16);
+        color: #FFF;
+        text-align: center;
+        font-size: 16px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding: 12px 20px ;
+        border: none;
+    }
+    /*=====================
+    DETAILY ZAVODU - PAGE 
+    =====================*/
+    /* full page */
+    main.mt-0 {
+        margin-top: 17px;
+    }
+    /* title */
+    main.mt-0 section.container.mb-9 div.flex.flex-col.justify-center div.mb-4.text-center {
+        position: relative;
+    }
+    /* subtitle */
+    main.mt-0 section.container.mb-9 div.flex div.flex.text-white.mb-3 div.text-normal {
+        color: #000;
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    /* img */
+    main.mt-0 section.container.mb-9 div.flex div.mb-4 div.flex.space-y-2 div.flex.my-2 img {
+        width: auto;
+        padding: 0 15px;
+        object-fit: scale-down;
+    }
+    /* info - cell 1. var*/
+    main.mt-0 section.container.mb-9 div.flex div.mb-4 div.flex.space-y-2 div.flex.flex-col.justify-left {
+        margin: 5px 15px ;
+        padding: 14px ;
+        background: #fff ;
+        border-radius: 10px ;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07) ;
+        display: flex ;
+        flex-direction: column ;
+        justify-content: center ;
+        align-items: flex-start ;
+        min-height: 69px ;
+        border: none ;
+        position: relative ;
+    }
+    main.mt-0 section.container.mb-9 div.flex div.mb-4 div.flex.space-y-2 div.my-2.text-sm {
+        color: red ;
+    }
+    /* info - cell 2. var */
+    main.mt-0 section.container.mb-9 div.flex div.mb-4 div.flex.space-y-2 div.flex.flex-row.justify-left {
+        margin: 5px 15px ;
+        padding: 14px ;
+        background: #fff ;
+        border-radius: 10px ;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07) ;
+        display: flex ;
+        flex-direction: column ;
+        justify-content: center ;
+        align-items: flex-start ;
+        min-height: 69px ;
+        border: none ;
+        position: relative ;
+    }
+    main.mt-0 section.container.mb-9 div.flex div.mb-4 div.flex.space-y-2 div.flex.flex-row.justify-left div {
+        margin: 0;
+    }
+    /* button - log in to the race */
+    main.mt-0 section.container.mb-9 div.flex div.mb-4 div.flex.space-y-2 div {
+        margin: 5px 15px;
+    }
+    main.mt-0 section.container.mb-9 div.flex div.mb-4 div.flex.space-y-2 div a.bg-gradient-to-r.from-red-600.to-red-800.px-4.py-2.text-white.rounded-sm.w-auto.shadow-lg.inline-flex {
+        padding: 14px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    /* warning */
+    main.mt-0 section.container.mb-9 div.flex div.mb-4 div.flex.space-y-2 div.mt-5.font-bold {
+        margin: 15px;
+    }
+    /* facebook */
+    main.mt-0 section.container.mb-9 div.flex div.mb-4 div.flex.space-y-2 div.mx-auto.my-2 {
+        margin: 0;
+    }
+    main.mt-0 section.container.mb-9 div.flex div.mb-4 div.flex.space-y-2 div.mx-auto.my-2 a {
+        margin: 5px 15px;
+        background: #3b5998;
+        border-radius: 10px;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        height: 69px;
+        border: none;
+        position: relative;
+    }
+    main.mt-0 section.container.mb-9 div.flex div.mb-4 div.flex.space-y-2 div.mx-auto.my-2 a img.w-20.rounded {
+        width: auto;
+        max-width: 100%;
+        height: inherit;
+        object-fit: scale-down;
+        margin: 0 auto;
+    }
+    main.mt-0 section.container.mb-9 div.flex div.mb-4 div.flex.space-y-2 div.flex.mx-auto.my-2 {
+        margin-bottom: 25px;
+        justify-content: center;
+    }
+    /* caption info */
+    main.mt-0 section.container.mb-9 div.flex div.mb-4 div.flex.space-y-2 div.flex.flex-col.justify-left div:nth-of-type(2) {
+        color: #000;
+        font-size: 14px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 3px 0 0 35px;
+        text-align: left;
+    }
+    /* caption */
+    main.mt-0 section.container.mb-9 div.flex div.mb-4 div.flex.space-y-2 div.flex.flex-col.justify-left div:nth-of-type(1) {
+        color: #000;
+        font-size: 14px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 0 0 0 35px;
+    }
+    /* section - results - titles */
+    /* subtitles */
+    main.mt-0 section.container.mb-9 div.flex div.flex.text-sm div.mx-auto.mb-2 {
+        color: #000;
+        font-size: 12px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+    }
+    /* title 1. table */
+    main.mt-0 section.container.mb-9 div.flex div.flex.text-sm div.pb-3 div.font-bold.uppercase {
+        color: #B91C1C;
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    /* 1. table of individual racer - results */
+    main.mt-0 section.container.mb-9 div.flex div.flex.text-sm div.pb-3 div.my-6.border.p-2 {
+        border: 0;
+        padding: 25px 0;
+        margin: 0;
+        border-radius: 0;
+        background: transparent;
+        width: 100%;
+    }
+    /* 2. table of individual racer - results */
+    main.mt-0 section.container.mb-9 div.flex div.flex.text-sm div.pb-3 div.flex.flex-col.text-left {
+        border: 0;
+        padding: 25px 0;
+        margin: 0;
+        border-radius: 0;
+        background: transparent;
+        width: 100%;
+    }
+    main.mt-0 section.container.mb-9 div.flex div.flex.text-sm div.pb-3 div.my-6.border.p-2 div.mb-1.text-red-600 {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    main.mt-0 section.container.mb-9 div.flex div.flex.text-sm div.pb-3 div.my-6.border.p-2 div.mb-1.text-red-600 div:nth-of-type(1) {
+        color: #000;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        background: transparent;
+    }
+    main.mt-0 section.container.mb-9 div.flex div.flex.text-sm div.pb-3 div.my-6.border.p-2 div.mb-1.text-red-600 div:nth-of-type(2) {
+        color: #000;
+        text-align: center;
+        font-size: 12px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    main.mt-0 section.container.mb-9 div.flex div.flex.text-sm div.pb-3 div.my-6.border.p-2 div.mb-1.text-red-600 div:nth-of-type(3) {
+        color: #000;
+        text-align: center;
+        font-size: 12px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    /* 1. option table */
+    main.mt-0 section.container.mb-9 div.flex div.flex.text-sm div.pb-3 div.my-6.border.p-2 table {
+        table-layout: auto;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    main.mt-0 section.container.mb-9 div.flex div.flex.text-sm div.pb-3 div.my-6.border.p-2 table thead {
+        display: flex;
+    }
+    main.mt-0 section.container.mb-9 div.flex div.flex.text-sm div.pb-3 div.my-6.border.p-2 table thead tr {
+        border-radius: 8px 8px 0px 0px;
+        background: #B91C1C;
+        color: #fff;
+    }
+    main.mt-0 section.container.mb-9 div.flex div.flex.text-sm div.pb-3 div.my-6.border.p-2 table tbody tr {
+        display: flex;
+    }
+    main.mt-0 section.container.mb-9 div.flex div.flex.text-sm div.pb-3 div.my-6.border.p-2 table tr th {
+        min-width: 10rem;
+        padding: 5px 12px;
+        width: auto;
+    }
+    main.mt-0 section.container.mb-9 div.flex div.flex.text-sm div.pb-3 div.my-6.border.p-2 table tr td {
+        min-width: 10rem !important;
+        padding: 5px 12px !important;
+        border: none !important;
+        width: auto;
+        min-height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    main.mt-0 section.container.mb-9 div.flex div.flex.text-sm div.pb-3 div.my-6.border.p-2 table tbody:nth-child(even) {
+        background: #FFF;
+    }
+    main.mt-0 section.container.mb-9 div.flex div.flex.text-sm div.pb-3 div.my-6.border.p-2 table tbody:nth-child(odd) {
+        background: #F3F3F3;
+    }
+    main.mt-0 section.container.mb-9 div.flex div.flex.text-sm div.pb-3 div.flex.flex-col.text-left div.font-semibold.mt-2.mb-1 {
+        color: #000;
+        text-align: center;
+        font-size: 12px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    main.mt-0 section.container.mb-9 div.flex div.flex.text-sm div.pb-3 div.my-6.border.p-2 table tbody tr td {
+        min-width: 10rem !important;
+        padding: 5px 12px !important;
+        border: none !important;
+        width: auto !important;
+        min-height: 50px !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: flex-start !important;
+        color: #000 !important;
+        font-family: 'Nunito' !important;
+        font-size: 13px !important;
+        font-style: normal !important;
+        font-weight: 700 !important;
+    }
+    main.mt-0 section.container.mb-9 div.flex div.flex.text-sm div.pb-3 div.my-6.border.p-2 table tbody tr td.border.border-gray-300.w-48.text-left {
+        color: #404040 !important;
+    }
+    main.mt-0 section.container.mb-9 div.flex div.flex.text-sm div.pb-3 div.my-6.border.p-2 table tbody tr td.border.border-gray-300.w-48.text-left a {
+        color: #000 !important;
+    }
+    main.mt-0 section.container.mb-9 div.flex div.flex.text-sm div.pb-3 div.my-6.border.p-2 table tbody tr td a {
+        text-decoration: none;
+    }
+    /* 2. option table */
+    main.mt-0 section.container.mb-9 div.flex div.flex.text-sm div.pb-3 div.flex.flex-col.text-left table {
+        table-layout: auto;
+    }
+    main.mt-0 section.container.mb-9 div.flex div.flex.text-sm div.pb-3 div.flex.flex-col.text-left table thead tr {
+        display: flex;
+        border-radius: 8px 8px 0px 0px;
+        background: #B91C1C;
+        flex-direction: row;
+        color: #fff;
+    }
+    main.mt-0 section.container.mb-9 div.flex div.flex.text-sm div.pb-3 div.flex.flex-col.text-left table tr th {
+        min-width: 10rem;
+        padding: 5px 12px;
+    }
+    main.mt-0 section.container.mb-9 div.flex div.flex.text-sm div.pb-3 div.flex.flex-col.text-left table tr td {
+        min-width: 10rem;
+        padding: 5px 12px;
+    }
+    main.mt-0 section.container.mb-9 div.flex div.flex.text-sm div.pb-3 div.flex.flex-col.text-left div.font-semibold.mt-2.mb-1 {
+        color: #000;
+        text-align: center;
+        font-size: 12px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    /*=====================
+    SOUTEZE - PAGE 
+    =====================*/
+    /* cells */
+    main.mt-6 div.container section.flex div.shadow table.table-auto.text-xs tbody tr {
+        margin: 10px 15px ;
+        padding: 14px ;
+        background: #fff ;
+        border-radius: 10px ;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07) ;
+        display: flex ;
+        flex-direction: row ;
+        justify-content: flex-start ;
+        align-items: center ;
+        min-height: 69px ;
+        border: none ;
+        position: relative ;
+    }
+    /* img */
+    main.mt-6 div.container section.flex div.shadow table.table-auto.text-xs tbody tr td {
+        display: block;
+        padding: 0;
+    }
+    main.mt-6 div.container section.flex div.shadow table.table-auto.text-xs tbody tr td.p-2.hidden {
+        min-width: 50px;
+        width: 50px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main.mt-6 div.container section.flex div.shadow table.table-auto.text-xs tbody tr td img {
+        border: none ;
+        border-radius: 0 ;
+        object-fit: scale-down ;
+        text-align: left ;
+    }
+    /* title */
+    main.mt-6 div.container section.flex div.shadow table.table-auto.text-xs tbody tr td.uppercase {
+        color: #000;
+        font-size: 14px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding: 0 20px 0 10px;
+        max-width: 83%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        word-break: break-word;
+    }
+    main.mt-6 div.container section.flex div.shadow table.table-auto.text-xs tbody tr td.uppercase div.text-xs.text-gray-700 {
+        font-size: 12px;
+    }
+    /* button */
+    main.mt-6 div.container section.flex div.shadow table.table-auto.text-xs tbody tr td.text-right {
+        position: absolute ;
+        top: 0 ;
+        right: 0px ;
+        width: 100% ;
+        height: 100% ;
+        padding: 0 ;
+        margin: 0 ;
+        border-radius: 10px ;
+    }
+    main.mt-6 div.container section.flex div.shadow table.table-auto.text-xs tbody tr td.text-right a {
+        display: none;
+    }
+    main.mt-6 div.container section.flex div.shadow table.table-auto.text-xs tbody tr td.text-right form {
+        display: none !important;
+    }
+    main.mt-6 div.container section.flex div.shadow table.table-auto.text-xs tbody tr td.text-right a.rounded-lg.inline-block.w-24.text-center.border.border-gray-200.bg-gradient-to-r.from-red-600.to-red-800.text-white.py-2.px-3.ml-2.text-sm {
+        display: block;
+        position: absolute ;
+        top: 0 ;
+        right: 0px ;
+        border: none ;
+        width: 100% ;
+        height: 100% ;
+        margin: 0 ;
+        padding: 0 ;
+        background: none ;
+        border-radius: 10px ;
+    }
+    main.mt-6 div.container section.flex div.shadow table.table-auto.text-xs tbody tr td.text-right a::after {
+        content: url('https://matej.webotvurci.cz/pozarnisporthasicovo-ikony/8665195_chevron_right_icon.svg');
+        position: absolute;
+        top: 40%;
+        right: 25px;
+        width: 0;
+        height: 0;
+    }
+    /*=====================
+    DETAILY SOUTEZE - PAGE 
+    =====================*/
+    /* title */
+    main.mt-0 section.container.mb-9 div.flex.p-2.shadow.w-full {
+        background: transparent ;
+        text-align: center ;
+        box-shadow: none ;
+        margin-top: 48px ;
+        margin-bottom: 20px ;
+        padding: 0 ;
+    }
+    main.mt-0 section.container.mb-9 div.flex.p-2.shadow.w-full div.text-normal {
+        color: #000 ;
+        text-align: center ;
+        font-size: 20px ;
+        font-family: 'Nunito' ;
+        font-style: normal ;
+        font-weight: 700 ;
+        line-height: normal ;
+    }
+    main.mt-0 section.container.mb-9 div.flex.flex-col.space-y-2.mb-4  {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    /* img */
+    main.mt-0 section.container.mb-9 div.flex div.flex.w-full div.flex.space-y-3 div.mx-auto img {
+        width: auto;
+        padding: 0 15px;
+        object-fit: scale-down;
+    }
+    /* cell info */
+    main.mt-0 section.container.mb-9 div.flex div.flex.w-full div.flex.space-y-3 div {
+        margin: 5px 15px;
+        padding: 14px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        min-height: 69px;
+        border: none;
+        position: relative;
+    }
+    /* caption + subcaption */
+    main.mt-0 section.container.mb-9 div.flex div.flex.w-full div.flex.space-y-3 div {
+        color: #000;
+        font-size: 12px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    main.mt-0 section.container.mb-9 div.flex div.flex.w-full div.flex.space-y-3 div.mx-auto {
+        margin: 0;
+        padding: 0;
+        background: transparent;
+        border-radius: 0;
+        box-shadow: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: auto;
+        border: none;
+        position: relative;
+    }
+    main.mt-0 section.container.mb-9 div.flex div.flex.w-full div.flex.space-y-3 div span {
+        color: #000;
+        font-size: 14px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 0 0 0 35px;
+    }
+    main.mt-0 section.container.mb-9 div.flex div.flex.w-full div.flex.space-y-3 div a {
+        padding: 0;
+        color: red;
+        margin: 0 0 0 35px;
+    }
+    /* section - individual races */
+    main.mt-0 section.container.mb-9 div.flex div.w-full div.flex.flex-col.text-center.mx-6 {
+        padding: 0;
+        margin: 0;
+    }
+    /* title - individual races */
+    main.mt-0 section.container.mb-9 div.flex div.w-full div.flex.flex-col.text-center.mx-6 div {
+        color: #000;
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 27px 0 7px 0;
+    }
+    main.mt-0 section.container.mb-9 div.flex div.w-full div.flex.flex-col.text-center.mx-6 div.font-bold.text-2xl.uppercase.mb-3 {
+        margin: 37px 0 22px 0;
+    }
+    /* cell - individual races  */
+    main.mt-0 section.container.mb-9 div.flex div.w-full div.flex.flex-col.text-center.mx-6 table.text-left {
+        color: #000;
+        font-size: 14px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        min-width: 100%;
+    }
+    main.mt-0 section.container.mb-9 div.flex div.w-full div.flex.flex-col.text-center.mx-6 table.text-left tbody tr {
+        margin: 10px 15px;
+        padding: 14px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07) ;
+        display: flex;
+        flex-direction: column ;
+        justify-content: center;
+        align-items: flex-start;
+        min-height: 69px;
+        border: none;
+        position: relative;
+    }
+    main.mt-0 section.container.mb-9 div.flex div.w-full div.flex.flex-col.text-center.mx-6 table.text-left tbody tr::after {
+        content: url(https://matej.webotvurci.cz/pozarnisporthasicovo-ikony/8665195_chevron_right_icon.svg);
+        position: absolute;
+        top: 40%;
+        right: 25px;
+        width: 0;
+        height: 0;
+    }
+    /* 1. td */
+    main.mt-0 section.container.mb-9 div.flex div.w-full div.flex.flex-col.text-center.mx-6 table.text-left tbody tr td:nth-of-type(1) {
+        width: auto;
+        position: absolute;
+        display: flex;
+        padding: 17px 20px;
+        top: 0;
+        left: 0;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        min-width: auto;
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    /* 2. td */
+    main.mt-0 section.container.mb-9 div.flex div.w-full div.flex.flex-col.text-center.mx-6 table.text-left tbody tr td:nth-of-type(2) {
+        max-width: 206px !important;
+        left: 38px !important;
+        padding: 0 !important;
+        position: relative !important;
+        background: none !important;
+
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: left !important;
+        
+        height: auto !important;
+        margin: 0 !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: flex-start !important;
+    }
+    /* 3. td */
+    main.mt-0 section.container.mb-9 div.flex div.w-full div.flex.flex-col.text-center.mx-6 table.text-left tbody tr td:nth-of-type(3) {
+        max-width: 206px !important;
+        left: 38px !important;
+        padding: 0 !important;
+        position: relative !important;
+        background: none !important;
+
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left !important;
+        
+        height: auto !important;
+        margin: 0 !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: flex-start !important;
+    }
+    /* section - order races  */
+    main.mt-0 section.container.mb-9 div.p-2 {
+        padding: 0;
+    }
+    /* title */
+    main.mt-0 section.container.mb-9 div.p-2 div.font-bold.text-2xl.uppercase {
+        color: #B91C1C;
+        text-align: center;
+        font-family: 'Nunito';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 8px 0;
+    }
+    /* subtitle */
+    main.mt-0 section.container.mb-9 div.p-2 div.text-xs.mb-2 {
+        color: #000;
+        text-align: center;
+        font-family: 'Nunito';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0 15px 25px 15px;
+    }
+    /* form */
+    main.mt-0 section.container.mb-9 div.p-2 div form {
+        padding: 0 15px;
+        margin: 0 0 25px 0;
+    }
+    /* form - checkbox */
+    main.mt-0 section.container.mb-9 div.p-2 div form input[type="checkbox"] {
+        color: #000;
+        text-align: center;
+        font-family: 'Nunito';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    /* accpt text */
+    main.mt-0 section.container.mb-9 div.p-2 div form span {
+        color: #000;
+        text-align: center;
+        font-family: 'Nunito';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    /* button */
+    main.mt-0 section.container.mb-9 div.p-2 div form input[type="submit"] {
+        color: #FFF;
+        text-align: center;
+        font-family: 'Nunito';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 8px 0;
+        padding: 10px 8px;
+        width: 100%;
+        border-radius: 6px;
+        background: linear-gradient(270deg, #DC2626 0%, #991B1B 100%);
+        box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.16);
+    }
+    /* table - title */
+    main.mt-0 section.container.mb-9 div.p-2 div.font-semibold.text-lg.mx-auto.mt-4 {
+        color: #000;
+        text-align: center;
+        font-family: 'Nunito';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    /* table */
+    main.mt-0 section.container.mb-9 div.p-2 {
+        border: 0 !important;
+        padding: 25px 0 !important;
+        margin: 0 !important;
+        border-radius: 0 !important;
+        background: transparent !important;
+        width: 100% !important;
+    }
+    main.mt-0 section.container.mb-9 div.p-2 table.text-sm.w-full {
+        table-layout: auto;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 15px;
+    }
+    main.mt-0 section.container.mb-9 div.p-2 table.text-sm.w-full thead {
+        border-radius: 8px 8px 0px 0px !important;
+        background: #B91C1C !important;
+        color: #fff !important;
+    }
+    main.mt-0 section.container.mb-9 div.p-2 table.text-sm.w-full tbody tr td {
+        min-width: 20rem !important;
+        padding: 5px 12px !important;
+        border: none !important;
+        width: auto;
+        min-height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+    }
+    main.mt-0 section.container.mb-9 div.p-2 table.text-sm.w-full tbody tr td:nth-of-type(1) {
+        width: auto !important;
+        min-width: 10px !important;
+        padding: 5px 12px !important;
+        border: none !important;
+        text-align: left !important;
+        font-weight: 400;
+    }
+    main.mt-0 section.container.mb-9 div.p-2 table.text-sm.w-full tbody tr td:nth-of-type(3) {
+        width: auto !important;
+        min-width: 40rem !important;
+        padding: 5px 12px !important;
+        border: none !important;
+        text-align: left !important;
+        font-weight: 400;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    main.mt-0 section.container.mb-9 div.p-2 table.text-sm.w-full tbody tr {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    main.mt-0 section.container.mb-9 div.p-2 table.text-sm.w-full tbody tr:nth-child(even) {
+        background: #FFF;
+    }
+    main.mt-0 section.container.mb-9 div.p-2 table.text-sm.w-full tbody tr:nth-child(odd) {
+        background: #F3F3F3;
+    }
+
+    main.mt-0 section.container.mb-9 div.flex div.flex.text-sm div.pb-3 div.my-6.border.p-2 table {
+        border-radius: 8px 8px 0px 0px;
+        background: #B91C1C;
+        color: #fff;
+    }
+    /*=====================
+    PROFIL - PAGE 
+    =====================*/
+    main.mt-0 div.container.mx-auto {
+        background: #EFEFEF;
+    }
+    /* title - racer card*/
+    main.mt-0 div.container.mx-auto div.flex.p-2.shadow.w-full.mb-3 {
+        background: transparent;
+        text-align: center;
+        box-shadow: none;
+        margin-top: 29px;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+    main.mt-0 div.container.mx-auto div.flex.p-2 div.text-normal {
+        color: #000;
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: initial;
+    }
+    /* section - foto + info */
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-8 {
+        width: 100%;
+        margin: 2em 0 0 0;
+        padding: 0;
+    }
+    main.mt-0 div.container.mx-auto div.flex.space-y-4.w-full {
+        padding: 0;
+        flex-direction: column;
+        width: 100%;
+    }
+    main.mt-0 div.container.mx-auto div.flex.space-y-4.w-full div.border.shadow.bg-gray-100.w-full:nth-last-of-type(1) {
+        order: 1;
+    }
+    main.mt-0 div.container.mx-auto div.flex.space-y-4.w-full div.border.shadow.bg-gray-100.w-full:nth-last-of-type(2) {
+        order: 3;
+    }
+    main.mt-0 div.container.mx-auto div.flex.space-y-4.w-full div.border.shadow.bg-gray-100.w-full:nth-last-of-type(3) {
+        order: 2;
+    }
+    main.mt-0 div.container.mx-auto div.flex.space-y-4.w-full div.flex.border.p-2.shadow {
+        box-shadow: none;
+        border: none;
+        background: transparent;
+    }
+    /* foto */
+    
+    main.mt-0 div.container.mx-auto div.flex.space-y-4.w-full div.flex.p-2 div:nth-of-type(1) {
+        display: none;
+    }
+    /* table info about racer */
+    main.mt-0 div.container.mx-auto div.flex.space-y-4.w-full div.flex.p-2 div:nth-of-type(2) {
+        border-radius: 12px 12px 0 0;
+        margin: 0;
+    }
+    main.mt-0 div.container.mx-auto div.flex.space-y-4.w-full div.flex.p-2 div.font-bold.text-red-700.mb-2.text-xl.my-4 {
+        color: #B91C1C;
+        text-align: center;
+        font-family: 'Nunito';
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    main.mt-0 div.container.mx-auto div.flex.space-y-4.w-full div.flex.p-2 div:nth-of-type(2) div.flex.space-x-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        background: transparent;
+        border: none;
+        padding: 0 15px;
+        box-shadow: none;
+        border-radius: 0;
+    }
+    main.mt-0 div.container.mx-auto div.flex.space-y-4.w-full div.flex.p-2 div:nth-of-type(2) div.flex.space-x-2 div.font-bold {
+        padding: 0;
+        margin: 0;
+        width: 50%;
+        text-align: left;
+        display: block;
+        background: transparent;
+        border: none;
+        box-shadow: none;
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px;
+    }
+    main.mt-0 div.container.mx-auto div.flex.space-y-4.w-full div.flex.p-2 div:nth-of-type(2) div.flex.space-x-2 div.text-uppercase {
+        padding: 0;
+        margin: 0;
+        width: 50%;
+        text-align: left;
+        background: transparent;
+        border: none;
+        box-shadow: none;
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+    }
+    main.mt-0 div.container.mx-auto div.flex.space-y-4.w-full div.flex.p-2 div:nth-of-type(2) div.flex.space-x-2:nth-child(even) {
+        background: #FFF;
+    }
+    main.mt-0 div.container.mx-auto div.flex.space-y-4.w-full div.flex.p-2 div:nth-of-type(2) div.flex.space-x-2:nth-child(odd) {
+        background: transparent;
+    }
+    /* table - individual achievements/wins */
+    main.mt-0 div.container.mx-auto div.flex.space-y-4.w-full div.w-full.border.shadow.bg-gray-100 {
+        border: 0;
+        padding: 25px 0;
+        margin: 0;
+        border-radius: 0;
+        background: transparent;
+        width: 100%;
+    }
+    /* table - padding */
+    main.mt-0 div.container.mx-auto div.flex.space-y-4.w-full div.w-full.border.shadow.bg-gray-100 {
+        padding: 10px 15px;
+        box-shadow: none;
+    }
+    main.mt-0 div.container.mx-auto div.flex.space-y-4.w-full div.w-full.border.shadow.bg-gray-100 table {
+        table-layout: auto;
+        border-radius: 8px;
+    }
+    main.mt-0 div.container.mx-auto div.flex.space-y-4.w-full div.w-full.border.shadow.bg-gray-100 table.w-full tbody tr.border.border-gray-400.text-center.font-bold td.px-2.py-2.bg-yellow-200 {
+        color: #B91C1C;
+        font-family: 'Nunito';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        background: none;
+        text-align: left;
+        padding: 15px 0;
+    }
+    main.mt-0 div.container.mx-auto div.flex.space-y-4.w-full div.w-full.border.shadow.bg-gray-100 table.w-full tbody tr {
+        box-shadow: none;
+        border: none;
+    }
+    main.mt-0 div.container.mx-auto div.flex.space-y-4.w-full div.w-full.border.shadow.bg-gray-100 table.w-full tbody tr td {
+        min-width: 5rem;
+        border: none;
+    }
+    /* categories */
+    main.mt-0 div.container.mx-auto div.flex.space-y-4.w-full div.w-full.border.shadow.bg-gray-100 table.w-full tbody tr:nth-child(odd) {
+        background: #F3F3F3;
+    }
+    main.mt-0 div.container.mx-auto div.flex.space-y-4.w-full div.w-full.border.shadow.bg-gray-100 table.w-full tbody tr:nth-child(even) {
+        background: #FFFF;
+    }
+    main.mt-0 div.container.mx-auto div.flex.space-y-4.w-full div.w-full.border.shadow.bg-gray-100 table.w-full tbody tr:nth-of-type(1)  {
+        background: none;
+    }
+    main.mt-0 div.container.mx-auto div.flex.space-y-4.w-full div.w-full.border.shadow.bg-gray-100 table.w-full tbody tr:nth-of-type(2)  {
+        box-shadow: none;
+        border: none;
+        background: none;
+    }
+    main.mt-0 div.container.mx-auto div.flex.space-y-4.w-full div.w-full.border.shadow.bg-gray-100 table.w-full tbody tr:nth-of-type(2)  td {
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        background: none !important;
+        text-align: left !important;
+    }
+    main.mt-0 div.container.mx-auto div.flex.space-y-4.w-full div.w-full.border.shadow.bg-gray-100 table.w-full tbody tr:nth-of-type(3) td {
+        color: #FFF;
+        font-family: 'Nunito';
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+    }
+    main.mt-0 div.container.mx-auto div.flex.space-y-4.w-full div.w-full.border.shadow.bg-gray-100 table.w-full tbody tr:nth-of-type(3)  {
+        box-shadow: none;
+        border: none;
+        border-radius: 8px 8px 0px 0px;
+        background: #B91C1C;
+    }
+    /* desc about me */
+    main.mt-0 div.container.mx-auto div.flex.space-y-4.w-full div.text-center.text-xs.my-4.border.shadow.bg-gray-100.px-2.w-full div {
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        text-align: left;
+    }
+    main.mt-0 div.container.mx-auto div.flex.space-y-4.w-full div.text-center.text-xs.my-4.border.shadow.bg-gray-100.px-2.w-full div.text-gray-700 {
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.my-6 div.flex.flex-row.w-full.space-x-4.justify-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 15px;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.my-6 div.flex.flex-row.w-full.space-x-4.justify-center button {
+        border-radius: 6px;
+        background: linear-gradient(270deg, #DC2626 0%, #991B1B 100%);
+        box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.16);
+        color: #FFF;
+        text-align: center;
+        font-family: 'Nunito';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    /* table - thead*/
+    main.mt-0 div.container.mx-auto div.w-full div.my-6 {
+        padding: 0 15px !important;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.my-6 div.flex.flex-row.w-full.justify-between {
+        flex-direction: column;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.my-6 div.my-4 {
+        border: 0 !important;
+        padding: 25px 0 !important;
+        margin: 0 !important;
+        border-radius: 0 !important;
+        background: transparent !important;
+        width: 100% !important;
+        position: relative;
+        overflow-x: auto;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.my-6 div.my-4 div.flex.space-x-2.border-b.text-xs.py-1 {
+        width: fit-content;
+        padding: 0;
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.my-6 div.my-4 div.flex.space-x-2.border-b.text-xs.py-1:nth-child(odd) {
+        background: #F3F3F3;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.my-6 div.my-4 div.flex.space-x-2.border-b.text-xs.py-1:nth-child(even) {
+        background: #FFFF;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.my-6 div.my-4 div.flex.space-x-2.border-b.text-xs.py-1:last-child {
+        border-radius: 0px 0px 8px 8px;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.my-6 div.my-4 div.flex.border-b.bg-yellow-200.text-xs {
+        width: fit-content !important;
+        border-radius: 8px 8px 0px 0px;
+        background: #B91C1C;
+        color: #FFF;
+        font-family: 'Nunito';
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+        padding: 5px 0px;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.my-6 div.my-4 div.flex.border-b.bg-yellow-200.text-xs div.flex.flex-col.text-xs.py-1.font-bold {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        margin: 0;
+        padding: 0px 15px;
+        border-radius: 8px 8px 0px 0px;
+        background: #B91C1C;
+        line-height: 32px;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.my-6 div.my-4 div.flex.border-b.bg-yellow-200.text-xs div.flex.flex-col.text-xs.py-1.font-bold div {
+        min-width: 7rem;
+        text-align: left;
+    }
+    /* tbody */
+    main.mt-0 div.container.mx-auto div.w-full div.my-6 div.my-4 div.flex.space-x-2.border-b.text-xs.py-1 div.flex.flex-col {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        margin: 0;
+        padding: 0px 15px;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.my-6 div.my-4 div.flex.space-x-2.border-b.text-xs.py-1 div.flex.flex-col div{
+        min-width: 7rem;
+        text-align: left;
+    }
+    /* advertisement */
+    main.mt-0 div.container.mx-auto div.my-8.flex.mx-auto {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    /*=====================
+    ZOBRAZENI ZAVODU - PAGE
+    =====================*/
+    /* create race - form */
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div:nth-of-type(1) div.px-6.py-4.bg-gray-100.border.border-gray-200.shadow-md.overflow-hidden form {
+        margin: 0 15px 0 15px;
+        padding: 0 0 33px 0;
+        border-bottom: 1px solid #fff;
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div:nth-of-type(1) div.px-6.py-4.bg-gray-100.border.border-gray-200.shadow-md.overflow-hidden form div.mb-4 {
+        text-align: left;
+        margin: 0 0 20px 0;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div:nth-of-type(1) div.px-6.py-4.bg-gray-100.border.border-gray-200.shadow-md.overflow-hidden form div.flex.space-x-4 {
+        display: flex;
+        flex-direction: column;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div:nth-of-type(1) div.px-6.py-4.bg-gray-100.border.border-gray-200.shadow-md.overflow-hidden form div.flex.space-x-4 div.mb-4 {
+        margin-left: 0;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div:nth-of-type(1) div.px-6.py-4.bg-gray-100.border.border-gray-200.shadow-md.overflow-hidden form div label {
+        color: #000;
+        text-align: center;
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div:nth-of-type(1) div.px-6.py-4.bg-gray-100.border.border-gray-200.shadow-md.overflow-hidden form div input {
+        border-radius: 6px;
+        background: #FFF;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07);
+        border: none;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div:nth-of-type(1) div.px-6.py-4.bg-gray-100.border.border-gray-200.shadow-md.overflow-hidden form div select {
+        border-radius: 6px;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07);
+        border: none;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div:nth-of-type(1) div.px-6.py-4.bg-gray-100.border.border-gray-200.shadow-md.overflow-hidden form textarea {
+        border-radius: 6px;
+        background: #FFF;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07);
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div:nth-of-type(1) div.px-6.py-4.bg-gray-100.border.border-gray-200.shadow-md.overflow-hidden form div.flex.justify-between {
+        flex-direction: column;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div:nth-of-type(1) div.px-6.py-4.bg-gray-100.border.border-gray-200.shadow-md.overflow-hidden form div.mb-4.w-full.relative span.text-xs.text-blue-700 {
+        color: #B91C1C;
+        font-family: 'Nunito';
+        font-size: 12px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: normal;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div:nth-of-type(1) div.px-6.py-4.bg-gray-100.border.border-gray-200.shadow-md.overflow-hidden form div.mb-4.w-full.relative select {
+        margin-bottom: 1rem;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div:nth-of-type(1) div div.px-6.py-4.bg-gray-100.border.border-gray-200.shadow-md.overflow-hidden {
+        box-shadow: none;
+        border: none;
+        background: none;
+        padding: 0;
+    }
+    /* ćategory racers*/
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div:nth-of-type(1) div.px-6.py-4.bg-gray-100.border.border-gray-200.shadow-md.overflow-hidden form div div.relative div.grid.grid-row div div {
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div:nth-of-type(1) div.px-6.py-4.bg-gray-100.border.border-gray-200.shadow-md.overflow-hidden form div div.relative div.grid.grid-row div div.font-bold.text-center.w-full {
+        margin: 14px 0 7px 0;
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: left;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div:nth-of-type(1) div.px-6.py-4.bg-gray-100.border.border-gray-200.shadow-md.overflow-hidden form div div.mb-4.relative {
+        margin-bottom: 25px;
+        width: 100%;
+    }
+    /* questions */
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div:nth-of-type(1) div.px-6.py-4.bg-gray-100.border.border-gray-200.shadow-md.overflow-hidden form div.flex.flex-col.mb-4.space-y-4 div.relative div.inline-block {
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 0;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div:nth-of-type(1) div.px-6.py-4.bg-gray-100.border.border-gray-200.shadow-md.overflow-hidden form div.flex.flex-col.mb-4.space-y-4 div.relative div.inline-block:nth-of-type(1) {
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 32px;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div:nth-of-type(1) div.px-6.py-4.bg-gray-100.border.border-gray-200.shadow-md.overflow-hidden form div.flex.flex-col.mb-4.space-y-4 div label.block.font-medium.text-sm.text-gray-700 {
+        text-align: left;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div:nth-of-type(1) div.px-6.py-4.bg-gray-100.border.border-gray-200.shadow-md.overflow-hidden form div.flex.flex-col.mb-4.space-y-4 div textarea.rounded-sm.shadow-sm.border-gray-300.block.mt-1.w-full {
+        border-radius: 6px;
+        background: #FFF;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07);
+        border: none;
+        margin-bottom: 22px;
+    }
+    /* btn */
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div:nth-of-type(1) div.px-6.py-4.bg-gray-100.border.border-gray-200.shadow-md.overflow-hidden form div.flex.items-center.justify-end.mt-4 {
+        justify-content: center;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div:nth-of-type(1) div.px-6.py-4.bg-gray-100.border.border-gray-200.shadow-md.overflow-hidden form div.flex.items-center.justify-end.mt-4 button.bg-gradient-to-r.from-red-600.to-red-800.px-4.py-2.text-white.rounded-sm.w-auto.shadow-lg.inline-flex.ml-3 {
+        border-radius: 6px;
+        background: linear-gradient(270deg, #DC2626 0%, #991B1B 100%);
+        box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.16);
+        color: #FFF;
+        text-align: center;
+        font-family: 'Nunito';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 0;
+    }
+    /* category - teams */
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div:nth-of-type(1) div.px-6.py-4.bg-gray-100.border.border-gray-200.shadow-md.overflow-hidden form div div.relative span.text-xs.text-blue-700  {
+        color: #999;
+        font-family: 'Nunito';
+        font-size: 12px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 32px;
+    }
+    /* ? svg styling */
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div:nth-of-type(1) div.px-6.py-4.bg-gray-100.border.border-gray-200.shadow-md.overflow-hidden form svg.w-5.h-5.inline-block.mx-2.text-gray-700.cursor-pointer {
+        width: 18px;
+        height: 18px;
+        flex-shrink: 0;
+        fill: #D2D2D2;
+        color: #fff;
+    }
+    /* create race */
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div.w-full.flex-col.space-y-8 {
+        margin: 0;
+        padding: 33px 15px;
+        border-bottom: 1px solid #fff !important;
+        color: #000 !important;
+        font-family: 'Nunito' !important;
+        font-size: 14px !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        line-height: normal !important;
+    }
+    /* my created racers */
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div.w-full.flex-col.space-y-8 div.p-2.border.border-gray-200.shadow.bg-gray-100:nth-of-type(1) {
+        box-shadow: none;
+        border: 0;
+        background: transparent;
+        padding: 0;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div.w-full.flex-col.space-y-8 div.p-2.border.border-gray-200.shadow.bg-gray-100:nth-of-type(1) h3.font-bold.text-normal.mb-3.leading-normal {
+        color: #000;
+        text-align: center;
+        font-family: 'Nunito';
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    /* table */
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div.w-full.flex-col.space-y-8 div.p-2.border.border-gray-200.shadow.bg-gray-100:nth-of-type(1) table.text-xs.table.w-full {
+        border-radius: 0;
+        background: transparent;
+        box-shadow: none;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div.w-full.flex-col.space-y-8 div.p-2.border.border-gray-200.shadow.bg-gray-100:nth-of-type(1) table.text-xs.table.w-full thead {
+        display: none;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div.w-full.flex-col.space-y-8 div.p-2.border.border-gray-200.shadow.bg-gray-100:nth-of-type(1) table.text-xs.table.w-full tbody tr {
+        margin: 0;
+        padding: 14px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        min-height: 106px;
+        border: none;
+        position: relative;
+        margin-bottom: 10px;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div.w-full.flex-col.space-y-8 div.p-2.border.border-gray-200.shadow.bg-gray-100:nth-of-type(1) table.text-xs.table.w-full tbody tr td:nth-of-type(1) {
+        order: 3;
+        color: #000;
+        text-align: right;
+        font-family: 'Nunito';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 3px 0 0 0;
+        padding: 0;
+        min-width: auto;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div.w-full.flex-col.space-y-8 div.p-2.border.border-gray-200.shadow.bg-gray-100:nth-of-type(1) table.text-xs.table.w-full tbody tr td:nth-of-type(2) {
+        order: 2;
+        color: #000;
+        text-align: right;
+        font-family: 'Nunito';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 3px 0 0 0;
+        padding: 0;
+        min-width: auto;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div.w-full.flex-col.space-y-8 div.p-2.border.border-gray-200.shadow.bg-gray-100:nth-of-type(1) table.text-xs.table.w-full tbody tr td:nth-of-type(3) {
+        order: 1;
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding: 0;
+        min-width: auto;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div.w-full.flex-col.space-y-8 div.p-2.border.border-gray-200.shadow.bg-gray-100:nth-of-type(1) table.text-xs.table.w-full tbody tr td:nth-of-type(4) {
+        order: 4;
+        margin-top: 10px;
+        padding: 0;
+        margin: 0;
+        border-radius: 10px;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        min-height: 100%;
+        border: none;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        left: 0;
+        width: 100%;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div.w-full.flex-col.space-y-8 div.p-2.border.border-gray-200.shadow.bg-gray-100:nth-of-type(1) table.text-xs.table.w-full tbody tr td:nth-of-type(4)::after {
+        content: url(https://matej.webotvurci.cz/pozarnisporthasicovo-ikony/8665195_chevron_right_icon.svg);
+        position: absolute;
+        top: 40%;
+        right: 25px;
+        width: 0;
+        height: 0;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div.w-full.flex-col.space-y-8 div.p-2.border.border-gray-200.shadow.bg-gray-100:nth-of-type(1) table.text-xs.table.w-full tbody tr td:nth-of-type(4) a.inline-block.border.border-blue-200.bg-blue-500 {
+        font-size: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: transparent;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div.w-full.flex-col.space-y-8 div.p-2.border.border-gray-200.shadow.bg-gray-100:nth-of-type(1) table.text-xs.table.w-full tbody tr td:nth-of-type(4) form {
+        display: none !important;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div.w-full.flex-col.space-y-8 div.p-2.border.border-gray-200.shadow.bg-gray-100:nth-of-type(2) {
+        box-shadow: none;
+        border: 0;
+        background: transparent;
+        padding: 0;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div.w-full.flex-col.space-y-8 div.p-2.border.border-gray-200.shadow.bg-gray-100:nth-of-type(2) h3.font-bold.text-normal.mb-3.leading-normal {
+        color: #000;
+        text-align: center;
+        font-family: 'Nunito';
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div.w-full.flex-col.space-y-8 div.p-2.border.border-gray-200.shadow.bg-gray-100:nth-of-type(2) table.text-xs.table.w-full thead {
+        display: none;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div.w-full.flex-col.space-y-8 div.p-2.border.border-gray-200.shadow.bg-gray-100:nth-of-type(2) table.text-xs.table.w-full tbody tr {
+        margin: 0;
+        padding: 14px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        min-height: 106px;
+        border: none;
+        position: relative;
+        margin-bottom: 10px;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div.w-full.flex-col.space-y-8 div.p-2.border.border-gray-200.shadow.bg-gray-100:nth-of-type(2) table.text-xs.table.w-full tbody tr td:nth-of-type(1) {
+        order: 3;
+        color: #000;
+        text-align: right;
+        font-family: 'Nunito';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 3px 0 0 0;
+        padding: 0;
+        min-width: auto;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div.w-full.flex-col.space-y-8 div.p-2.border.border-gray-200.shadow.bg-gray-100:nth-of-type(2) table.text-xs.table.w-full tbody tr td:nth-of-type(2) {
+        order: 2;
+        color: #000;
+        text-align: right;
+        font-family: 'Nunito';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 3px 0 0 0;
+        padding: 0;
+        min-width: auto;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div.w-full.flex-col.space-y-8 div.p-2.border.border-gray-200.shadow.bg-gray-100:nth-of-type(2) table.text-xs.table.w-full tbody tr td:nth-of-type(3) {
+        order: 1;
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding: 0;
+        min-width: auto;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div.w-full.flex-col.space-y-8 div.p-2.border.border-gray-200.shadow.bg-gray-100:nth-of-type(2) table.text-xs.table.w-full tbody tr td:nth-of-type(4) {
+        order: 4;
+        margin-top: 10px;
+        padding: 0;
+        margin: 0;
+        border-radius: 10px;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        min-height: 100%;
+        border: none;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        left: 0;
+        width: 100%;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div.w-full.flex-col.space-y-8 div.p-2.border.border-gray-200.shadow.bg-gray-100:nth-of-type(2) table.text-xs.table.w-full tbody tr td:nth-of-type(4)::after {
+        content: url(https://matej.webotvurci.cz/pozarnisporthasicovo-ikony/8665195_chevron_right_icon.svg);
+        position: absolute;
+        top: 40%;
+        right: 25px;
+        width: 0;
+        height: 0;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div.w-full.flex-col.space-y-8 div.p-2.border.border-gray-200.shadow.bg-gray-100:nth-of-type(2) table.text-xs.table.w-full tbody tr td:nth-of-type(4) a.inline-block.border.border-blue-200.bg-blue-500 {
+        font-size: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: transparent;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div.w-full.flex-col.space-y-8 div.p-2.border.border-gray-200.shadow.bg-gray-100:nth-of-type(2) table.text-xs.table.w-full tbody tr td:nth-of-type(4) form {
+        display: none !important;
+    }
+    /*=====================
+    EDITACE ZAVODU - PAGE 
+    =====================*/
+    main.mt-0 div.container.mx-auto div.w-full div.bg-gray-100.shadow.border.boreder-gray-200.text-center {
+        border: none;
+        box-shadow: none;
+        background: none;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.bg-gray-100.shadow.border.boreder-gray-200.text-center div.flex.flex-col.w-full.mb-4 {
+        padding: 0 15px;
+    }
+    /* info who the race create */
+    main.mt-0 div.container.mx-auto div.w-full div.bg-gray-100.shadow.border.boreder-gray-200.text-center div {
+        width: 100%;
+        display: flex;
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 23px;
+        margin: 0 0 5px 0;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.bg-gray-100.shadow.border.boreder-gray-200.text-center div.flex.flex-col.w-full.mb-4 div div.text-center.my-4 div.mb-4 ul {
+        text-align: left;
+        margin: 0;
+        width: 100%;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.bg-gray-100.shadow.border.boreder-gray-200.text-center div.flex.flex-col.w-full.mb-4 div div.text-center.my-4 div.mb-4 ul li button {
+        border-radius: 6px;
+        background: linear-gradient(270deg, #DC2626 0%, #991B1B 100%);
+        box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.16);
+        color: #FFF;
+        font-family: 'Nunito';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding: 10px 8px;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.px-6.py-4.bg-gray-100.shadow.border.boreder-gray-200.overflow-hidden form div.mb-4 {
+        text-align: left;
+        margin: 0 0 20px 0;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.px-6.py-4.bg-gray-100.shadow.border.boreder-gray-200.overflow-hidden input {
+        border-radius: 6px;
+        background: #FFF;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07);
+        border: none;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.bg-gray-100.shadow.border.boreder-gray-200.text-center div div.text-center.my-4 {
+        flex-direction: column;
+        text-align: left;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.bg-gray-100.shadow.border.boreder-gray-200.text-center div div.text-center.my-4 div:last-child {
+        flex-direction: column;
+        text-align: left;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.bg-gray-100.shadow.border.boreder-gray-200.text-center div span {
+        min-width: 162px;
+        text-align: left;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.bg-gray-100.shadow.border.boreder-gray-200.text-center div button {
+        border-radius: 6px;
+        background: linear-gradient(270deg, #DC2626 0%, #991B1B 100%);
+        box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.16);
+        color: #FFF;
+        font-family: 'Nunito';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding: 10px 8px;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.bg-gray-100.shadow.border.boreder-gray-200.text-center div a {
+        width: 100%;
+        display: flex;
+        color: #000 !important;
+        font-family: 'Nunito' !important;
+        font-size: 14px !important;
+        font-style: normal !important;
+        font-weight: 700 !important;
+        line-height: 23px !important;
+        margin: 0 0 5px 0;
+        text-decoration: none;
+        border-radius: 0;
+        background: none;
+        box-shadow: none;
+        padding: 0;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.bg-gray-100.shadow.border.boreder-gray-200.text-center div div.mx-auto img {
+        margin: 15px 0 0 17px;
+        width: 65px;
+    }
+    /* button */
+    main.mt-0 div.container.mx-auto div.w-full div.bg-gray-100.shadow.border.boreder-gray-200.text-center div.flex.flex-col.w-full.mb-4 div.flex.flex-row.space-x-4.justify-center.mb-4 {
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 26px 0;
+        color: #fff;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.bg-gray-100.shadow.border.boreder-gray-200.text-center div.flex.flex-col.w-full.mb-4 div.flex.flex-row.space-x-4.justify-center.mb-4 div {
+        border-radius: 6px;
+        background: linear-gradient(270deg, #DC2626 0%, #991B1B 100%);
+        box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.16);
+        color: #FFF;
+        font-family: 'Nunito';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 0;
+        padding: 10px 15px;
+        width: auto;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.bg-gray-100.shadow.border.boreder-gray-200.text-center div.flex.flex-col.w-full.mb-4 div.flex.flex-row.space-x-4.justify-center.mb-4 div form button {
+        background: transparent;
+        box-shadow: none;
+        padding: 0;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.bg-gray-100.shadow.border.boreder-gray-200.text-center div.flex.flex-col.w-full.mb-4 div.flex.flex-row.space-x-4.justify-center.mb-4 div a {
+        color: #FFF !important;
+        font-family: 'Nunito' !important;
+        font-size: 16px !important;
+        font-style: normal !important;
+        font-weight: 700 !important;
+        line-height: normal !important;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.bg-gray-100.shadow.border.boreder-gray-200.text-center div.flex.flex-col.w-full.mb-4 div.flex.flex-row.space-x-4.justify-center.mb-4 div a {
+        display: contents;
+        color: #fff;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.bg-gray-100.shadow.border.boreder-gray-200.text-center div.flex.flex-col.w-full.mb-4 div.flex.flex-row.space-x-4.justify-center.mb-4 div a br {
+        display: none;
+    }
+    /* edit race */
+    main.mt-0 div.container.mx-auto div.w-full div.px-6.py-4.bg-gray-100.shadow.border.boreder-gray-200.overflow-hidden {
+        box-shadow: none;
+        border: none;
+        background: none;
+        margin: 23px 0;
+        padding: 0 15px;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.px-6.py-4.bg-gray-100.shadow.border.boreder-gray-200.overflow-hidden form.w-full label {
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.px-6.py-4.bg-gray-100.shadow.border.boreder-gray-200.overflow-hidden form.w-full div div.mb-4 input.rounded-sm.shadow-sm.border-gray-300.block.mt-1 {
+        width: 100%;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.px-6.py-4.bg-gray-100.shadow.border.boreder-gray-200.overflow-hidden form.w-full div.flex.items-center.justify-end.mt-4 button {
+        border-radius: 6px;
+        background: linear-gradient(270deg, #DC2626 0%, #991B1B 100%);
+        box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.16);
+        color: #FFF;
+        font-family: 'Nunito';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    /*=====================
+    EDITACE VYSLEDKU ZAVODU - PAGE
+    =====================*/
+    main.mt-0 div.container.mx-auto div div div div.flex.flex-col.space-y-2 {
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 26px;
+        gap: 7px;
+    }
+    main.mt-0 div.container.mx-auto div div div div.flex.flex-col.space-y-2 div a.bg-gradient-to-r {
+        border-radius: 6px;
+        background: linear-gradient(270deg, #DC2626 0%, #991B1B 100%);
+        box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.16);
+        color: #FFF;
+        font-family: 'Nunito';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 0;
+        padding: 10px 15px;
+        width: auto;
+    }
+    main.mt-0 div.container.mx-auto div div div div.flex.flex-col.space-y-2 div.w-full {
+        padding: 0 15px;
+    }
+    main.mt-0 div.container.mx-auto div div div div.flex.flex-col.space-y-2 div.w-full div.text-center.font-bold.py-2 {
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: left;
+    }
+    /* category */
+    main.mt-0 div.container.mx-auto div div.mb-4 div {
+        margin: 8px 15px;
+    }
+    main.mt-0 div.container.mx-auto div.flex.flex-col.w-full.space-y-2 div:nth-of-type(1) div.px-6.py-4.bg-gray-100.border.border-gray-200.shadow-md.overflow-hidden form div.mb-4.relative div.inline-block {
+        margin: 0;
+        padding: 0;
+    }
+    main.mt-0 div.container.mx-auto div div.mb-4 div:first-child {
+        margin: 12px 15px;
+    }
+    main.mt-0 div.container.mx-auto div div.mb-4 div a {
+        text-decoration: none;
+        color: #000 !important;
+        text-align: center !important;
+        font-family: 'Nunito' !important;
+        font-size: 15px !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        line-height: normal !important;
+        margin-bottom: 9px !important;
+        border-radius: 10px;
+        background: #FFF;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07);
+        padding: 12px 8px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main.mt-0 div.container.mx-auto div div.mb-4 div:first-child a {
+        text-decoration: none;
+        color: #000;
+        text-align: center;
+        font-family: 'Nunito';
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 16px;
+
+        border-radius: 0;
+        background: transparent;
+        box-shadow: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main.mt-0 div.container.mx-auto div div.flex.flex-col div.font-bold.text-lg.uppercase {
+        color: #000;
+        text-align: center;
+        font-family: 'Nunito';
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding: 0 15px;
+        margin: 18px 0;
+    }
+    main.mt-0 div.container.mx-auto div div.flex.flex-col div {
+        overflow-x: auto;
+    }
+    main.mt-0 div.container.mx-auto div div.flex.flex-col div.my-4 div.font-bold.text-left div.flex.justify-between.items-baseline {
+        display: flex;
+        flex-direction: column;
+    }
+    main.mt-0 div.container.mx-auto div div.flex.flex-col div.my-4 div.font-bold.text-left div.flex.justify-between.items-baseline div.flex.text-sm.space-x-4 {
+        display: flex;
+        flex-direction: column;
+    }
+    main.mt-0 div.container.mx-auto div div.flex.flex-col div.my-4 div.font-bold.text-left div.flex.justify-between.items-baseline div.flex.space-x-1 {
+        display: flex;
+        flex-direction: column;
+    }
+    main.mt-0 div.container.mx-auto div div.flex.flex-col div.my-4 div.table-div table.text-sm.my-4.relative.table.w-full thead tr.bg-gray-600.text-white.text-center {
+        display: flex;
+        border-radius: 8px 8px 0px 0px;
+        background: #B91C1C;
+        flex-direction: row;
+        color: #fff;
+    }
+    main.mt-0 div.container.mx-auto div div.flex.flex-col div.my-4 div.table-div table.text-sm.my-4.relative.table.w-full thead tr.bg-gray-600.text-white.text-center th {
+        border-width: 1px;
+        min-width: 10rem;
+        padding: 5px 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main.mt-0 div.container.mx-auto div div.flex.flex-col div.my-4 div.font-bold.text-left div.flex.justify-between.items-baseline div.flex.text-sm.space-x-4 div.flex.flex-col.space-y-2 {
+        margin: 0;
+        padding: 10px;
+    }
+    main.mt-0 div.container.mx-auto div div.flex.flex-col div.my-4 div.font-bold.text-left div.flex.justify-between.items-baseline div.flex.text-sm.space-x-4 div.flex.flex-col.space-y-2 div {
+        width: 100%;
+    }
+    main.mt-0 div.container.mx-auto div div.flex.flex-col div.my-4 div.font-bold.text-left div.flex.justify-between.items-baseline div.flex.text-sm.space-x-4 div.flex.flex-col.space-y-2 div.flex.space-x-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    main.mt-0 div.container.mx-auto div div.flex.flex-col table.text-sm.my-4.relative {
+        margin: 0 15px 44px 15px;
+    }
+    main.mt-0 div.container.mx-auto div div.flex.flex-col table.text-sm.my-4.relative caption.font-bold.text-left.border-b.border-gray-500.mb-1 {
+        border: none;
+    }
+    main.mt-0 div.container.mx-auto div div.flex.flex-col table.text-sm.my-4.relative caption.font-bold.text-left.border-b.border-gray-500.mb-1 div.flex.justify-between.align-end {
+        flex-direction: column;
+    }
+    main.mt-0 div.container.mx-auto div div.flex.flex-col table.text-sm.my-4.relative caption.font-bold.text-left.border-b.border-gray-500.mb-1 div.flex.justify-between.align-end div:last-child {
+        display: none;
+    }
+    main.mt-0 div.container.mx-auto div div.flex.flex-col table.text-sm.my-4.relative caption.font-bold.text-left.border-b.border-gray-500.mb-1 div.flex.justify-between.align-end div.flex.text-sm.space-x-4.mb-2 {
+        flex-direction: column;
+        position: relative;
+        height: 120px;
+    }
+    main.mt-0 div.container.mx-auto div div.flex.flex-col table.text-sm.my-4.relative caption.font-bold.text-left.border-b.border-gray-500.mb-1 div.flex.justify-between.align-end div.flex.text-sm.space-x-4.mb-2 div {
+        display: flex;
+    }
+    main.mt-0 div.container.mx-auto div div.flex.flex-col table.text-sm.my-4.relative caption.font-bold.text-left.border-b.border-gray-500.mb-1 div.flex.justify-between.align-end div.flex.text-sm.space-x-4.mb-2 div div {
+        color: #000;
+        text-align: left;
+        font-family: 'Nunito';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    main.mt-0 div.container.mx-auto div div.flex.flex-col table.text-sm.my-4.relative caption.font-bold.text-left.border-b.border-gray-500.mb-1 div.flex.justify-between.align-end div.flex.text-sm.space-x-4.mb-2 div div.flex.space-x-2 div span {
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    main.mt-0 div.container.mx-auto div div.flex.flex-col table.text-sm.my-4.relative caption.font-bold.text-left.border-b.border-gray-500.mb-1 div.flex.justify-between.align-end div.flex.text-sm.space-x-4.mb-2 div div.flex.space-x-2 {
+        gap: 10px;
+        position: absolute;
+        top: 55px;
+    }
+    main.mt-0 div.container.mx-auto div div.flex.flex-col table.text-sm.my-4.relative caption.font-bold.text-left.border-b.border-gray-500.mb-1 div.flex.justify-between.align-end div.flex.text-sm.space-x-4.mb-2 div div.flex.space-x-2 div {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    main.mt-0 div.container.mx-auto div div.flex.flex-col table.text-sm.my-4.relative caption.font-bold.text-left.border-b.border-gray-500.mb-1 div.flex.justify-between.align-end div.flex.text-sm.space-x-4.mb-2 div div.flex.space-x-2 div:nth-of-type(1) {
+        order: 2;
+    }
+    main.mt-0 div.container.mx-auto div div.flex.flex-col table.text-sm.my-4.relative caption.font-bold.text-left.border-b.border-gray-500.mb-1 div.flex.justify-between.align-end div.flex.text-sm.space-x-4.mb-2 div div.flex.space-x-2 div:nth-of-type(2) {
+        order: 1;
+    }
+    main.mt-0 div.container.mx-auto div div.flex.flex-col table.text-sm.my-4.relative caption.font-bold.text-left.border-b.border-gray-500.mb-1 div.flex.justify-between.align-end div.flex.text-sm.space-x-4.mb-2 div div.flex.space-x-2 div:nth-of-type(1) input {
+        border-radius: 6px;
+        background: #FFF;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07);
+        width: 64px;
+        height: 38px;
+        flex-shrink: 0;
+    }
+    main.mt-0 div.container.mx-auto div div.flex.flex-col table.text-sm.my-4.relative caption.font-bold.text-left.border-b.border-gray-500.mb-1 div.flex.justify-between.align-end div.flex.text-sm.space-x-4.mb-2 div div.flex.space-x-2 div:nth-of-type(2) input {
+        border-radius: 6px;
+        background: #FFF;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07);
+        width: 143px;
+        height: 38px;
+        flex-shrink: 0;
+    }
+    /* data-v-10ebe4be - 2 */
+    main.mt-0 div.container.mx-auto div div.flex.flex-col table.text-sm.my-4.relative caption.font-bold.text-left.border-b.border-gray-500.mb-1 div.flex.justify-between.align-end div.flex.text-sm.space-x-4.mb-2 div:nth-of-type(2) {
+        margin: 0;
+    }
+    main.mt-0 div.container.mx-auto div div.flex.flex-col table.text-sm.my-4.relative caption.font-bold.text-left.border-b.border-gray-500.mb-1 div.flex.justify-between.align-end div.flex.text-sm.space-x-4.mb-2 div:nth-of-type(2) div span {
+        color: #999;
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 23px;
+    }
+    main.mt-0 div.container.mx-auto div div.flex.flex-col table.text-sm.my-4.relative caption.font-bold.text-left.border-b.border-gray-500.mb-1 div.flex.justify-between.align-end div.flex.text-sm.space-x-4.mb-2 div:nth-of-type(2) div.text-gray-600 {
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: absolute;
+        top: 55px;
+        left: 253px;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    main.mt-0 div.container.mx-auto div div.flex.flex-col table.text-sm.my-4.relative caption.font-bold.text-left.border-b.border-gray-500.mb-1 div.flex.justify-between.align-end div.flex.text-sm.space-x-4.mb-2 div div.flex.space-x-2 div.text-gray-600 {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    main.mt-0 div.container.mx-auto div div.flex.flex-col table.text-sm.my-4.relative caption.font-bold.text-left.border-b.border-gray-500.mb-1 div.flex.justify-between.align-end div.flex.text-sm.space-x-4.mb-2 div:nth-of-type(2) div.text-gray-600 input {
+        border-radius: 6px;
+        background: #FFF;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07);
+        width: 64px;
+        height: 38px;
+    }
+    /* table - thead */
+    main.mt-0 div.container.mx-auto div div.flex.flex-col table.text-sm.my-4.relative thead tr.text-left.bg-gray-600.text-white.text-center {
+        border-radius: 8px 8px 0px 0px;
+        background: #B91C1C;
+        display: flex;
+        flex-direction: row;
+    }
+    main.mt-0 div.container.mx-auto div div.flex.flex-col table.text-sm.my-4.relative thead tr.text-left.bg-gray-600.text-white.text-center th {
+        width: max-content;
+        display: flex;
+        padding: 5px 15px;
+        color: #FFF;
+        font-family: 'Nunito';
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+        border: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    /* table - tbody */
+    main.mt-0 div.container.mx-auto div div.flex.flex-col table.text-sm.my-4.relative tbody {
+        border-radius: 8px;
+        background: #FFF;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07);
+    }
+    main.mt-0 div.container.mx-auto div div.flex.flex-col table.text-sm.my-4.relative tbody tr td {
+        padding: 6px 15px;
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 16px;
+    }
+    main.mt-0 div.container.mx-auto div div.flex.flex-col table.text-sm.my-4.relative tbody tr:nth-of-type(even) {
+        background: #F3F3F3;
+    }
+    /*=====================
+    PFORIL UZIVATELE - PRIHLASENY - PAGE
+    =====================*/
+    main {
+        margin-top: 15px;
+    }
+    main div.container.mx-auto div.flex.p-2.shadow.items-center.font-bold.uppercase.bg-gray-700.text-white.justify-center.w-full.mb-3 {
+        box-shadow: none;
+        border: none;
+        background: none;
+        margin: 0;
+        padding: 0;
+    }
+    main div.container.mx-auto div.flex.p-2.shadow.items-center.font-bold.uppercase.bg-gray-700.text-white.justify-center.w-full.mb-3 div.text-normal {
+        padding: 32px 0 20px 0;
+        color: #000 ;
+        font-size: 20px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+        background: transparent;
+        margin: 0;
+        text-transform: initial;
+    }
+    /* edit profile*/
+    main div.container.mx-auto div.w-full.space-y-4 div.w-full div.px-1.py-1.bg-gray-100.shadow.overflow-hidden.border {
+        box-shadow: none;
+        border: none;
+        background: none;
+        padding: 0 15px;
+        margin: 25px 0;
+    }
+    main div.container.mx-auto div.w-full.space-y-4 div.w-full div.px-1.py-1.bg-gray-100.shadow.overflow-hidden.border form label {
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    main div.container.mx-auto div.w-full.space-y-4 div.w-full div.px-1.py-1.bg-gray-100.shadow.overflow-hidden.border form input {
+        border-radius: 6px;
+        background: #FFF;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07);
+        border: none;
+    }
+    main div.container.mx-auto div.w-full.space-y-4 div.w-full div.px-1.py-1.bg-gray-100.shadow.overflow-hidden.border form #image {
+        margin-left: 0 !important;
+        border: none !important;
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: flex-start !important;
+        align-items: center !important;
+        border-radius: 6px !important;
+        background: #FFF !important;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07) !important;
+        padding: 4px !important;
+        color: #000 !important;
+        font-family: 'Nunito' !important;
+        font-size: 14px !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        line-height: 32px !important;
+    }
+    main div.container.mx-auto div.w-full.space-y-4 div.w-full div.px-1.py-1.bg-gray-100.shadow.overflow-hidden.border form #image::file-selector-button {
+        position: relative;
+        float: right;
+        margin: 0;
+        padding: 7px 12px;
+        border: none;
+        color: #FFF;
+        text-align: center;
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        border-radius: 6px;
+        background: linear-gradient(315deg, #636363 0%, #3A3A3A 100%);
+        box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.16);
+    }
+    /* buttom - save */
+    main div.container.mx-auto div.w-full.space-y-4 div.w-full div.px-1.py-1.bg-gray-100.shadow.overflow-hidden.border form div.flex.items-center.justify-end.mt-4 button {
+        margin: 0;
+        border-radius: 6px;
+        background: linear-gradient(270deg, #DC2626 0%, #991B1B 100%);
+        box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.16);
+    }
+    /* profile img */
+    main div.container.mx-auto div.w-full.space-y-4 div.w-full.space-y-2.flex.flex-col div.px-1.py-1.bg-gray-100.shadow.overflow-hidden.border div.w-full div.italic.text-sm.border.h-72.w-52.text-center.shadow.flex.flex-col.space-y-4.bg-gray-100 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    main div.container.mx-auto div.w-full.space-y-4 div.w-full.space-y-2.flex.flex-col div.px-1.py-1.bg-gray-100.shadow.overflow-hidden.border div.w-full div.italic.text-sm.border.h-72.w-52.text-center.shadow.flex.flex-col.space-y-4.bg-gray-100 {
+        color: #000000;
+        text-align: center;
+        font-family: 'Nunito';
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    main div.container.mx-auto div.w-full.space-y-4 div.w-full.space-y-2.flex.flex-col div.px-1.py-1.bg-gray-100.shadow.overflow-hidden.border div {
+        color: #b62020;
+        text-align: center;
+        font-family: 'Nunito';
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    /*=====================
+    VYTVORENI LIGY - PAGE
+    =====================*/
+    main div.container.mx-auto div.w-full div.w-full div.w-full div.px-6.py-4.bg-white.shadow-md.overflow-hidden {
+        padding: 15px;
+    }
+    main div.container.mx-auto div.w-full div.w-full div.w-full div.px-6.py-4.bg-white.shadow-md.overflow-hidden form div.mb-4 {
+        text-align: left;
+        margin: 0 0 20px 0;
+    }
+    main div.container.mx-auto div.w-full div.w-full div.w-full div.px-6.py-4.bg-white.shadow-md.overflow-hidden form div label.block.font-medium.text-sm.text-gray-700 {
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 10px;
+    }
+    main div.container.mx-auto div.w-full div.w-full div.w-full div.px-6.py-4.bg-white.shadow-md.overflow-hidden form div.mb-4 label {
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    main div.container.mx-auto div.w-full div.w-full div.w-full div.px-6.py-4.bg-white.shadow-md.overflow-hidden form div.mb-4 input {
+        border-radius: 6px;
+        background: #FFF;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07);
+        border: none;
+    }
+    main div.container.mx-auto div.w-full div.w-full div.w-full div.px-6.py-4.bg-white.shadow-md.overflow-hidden form div.mb-4 textarea {
+        border-radius: 6px;
+        background: #FFF;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07);
+        border: none;
+    }
+    main div.container.mx-auto div.w-full div.w-full div.w-full div.px-6.py-4.bg-white.shadow-md.overflow-hidden form div.mb-4 select {
+        border-radius: 6px;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07);
+        border: none;
+    }
+    main div.container.mx-auto div.w-full div.w-full div.w-full div.px-6.py-4.bg-white.shadow-md.overflow-hidden form div div.grid.grid-row div div {
+        margin: 0 0 14px 0;
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    main div.container.mx-auto div.w-full div.w-full div.w-full div.px-6.py-4.bg-white.shadow-md.overflow-hidden form div div.grid.grid-row div div.font-bold.text-center.w-full {
+        text-align: left;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    main div.container.mx-auto div.w-full div.w-full div.w-full div.px-6.py-4.bg-white.shadow-md.overflow-hidden form div span.text-xs.text-blue-700 {
+        color: #f00;
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: normal;
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        margin: 10px 0;
+    }
+    main div.container.mx-auto div.w-full div.w-full div.w-full div.px-6.py-4.bg-white.shadow-md.overflow-hidden form div div.grid.grid-row span.text-xs.text-blue-700 {
+        color: #f00;
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: normal; 
+    }
+    main div.container.mx-auto div.w-full div.w-full div.w-full div.px-6.py-4.bg-white.shadow-md.overflow-hidden form div.mt-3.mb-2 #add_category {
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-style: italic;
+        font-weight: 700;
+        line-height: normal;
+        border-radius: 6px;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07);
+        padding: 8px 15px;
+    }
+    main div.container.mx-auto div.w-full div.w-full div.w-full div.px-6.py-4.bg-white.shadow-md.overflow-hidden form div.mt-3.mb-2 div div div div.my-3 div.grid.gap-4 label {
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    main div.container.mx-auto div.w-full div.w-full div.w-full div.px-6.py-4.bg-white.shadow-md.overflow-hidden form div.mt-3.mb-2 div div div div.my-3 div.grid.gap-4 input {
+        border-radius: 6px;
+        background: #FFF;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07);
+        border: none;
+    }
+    main div.container.mx-auto div.w-full div.w-full div.w-full div.px-6.py-4.bg-white.shadow-md.overflow-hidden form div.mt-3.mb-2 div div div div.my-3 div.grid.gap-4 select {
+        border-radius: 6px;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07);
+        border: none;
+    }
+    /* create league */
+    main div.container.mx-auto div.w-full div.w-full div.w-full div.px-6.py-4.bg-white.shadow-md.overflow-hidden form div.flex.items-center.justify-end.mt-4 button {
+        border-radius: 6px;
+        background: linear-gradient(270deg, #DC2626 0%, #991B1B 100%);
+        box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.16);
+        color: #FFF;
+        text-align: center;
+        font-family: 'Nunito';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 15px;
+    }
+    /* edit league */
+    main div.container.mx-auto div.w-full div.w-full div.w-full.px-6  {
+        padding: 25px 15px;
+    }
+    main div.container.mx-auto div.w-full div.w-full div.w-full.px-6 h3.font-bold.text-normal.mb-3.leading-normal {
+        color: #000;
+        text-align: center;
+        font-family: 'Nunito';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    main div.container.mx-auto div.w-full div.w-full div.w-full.px-6 table.ml-3.text-xs {
+        margin: 0;
+    }
+    main div.container.mx-auto div.w-full div.w-full div.w-full.px-6 table.ml-3.text-xs tbody {
+        display: flex;
+        flex-direction: column;
+    }
+    main div.container.mx-auto div.w-full div.w-full div.w-full.px-6 table.ml-3.text-xs tbody tr {
+        padding: 14px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: none;
+        position: relative;
+        margin-bottom: 10px;
+    }
+    main div.container.mx-auto div.w-full div.w-full div.w-full.px-6 table.ml-3.text-xs tbody tr td {
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding: 0;
+        min-width: auto;
+    }
+    main div.container.mx-auto div.w-full div.w-full div.w-full.px-6 table.ml-3.text-xs tbody tr td a {
+        border-radius: 6px;
+        background: linear-gradient(270deg, #DC2626 0%, #991B1B 100%);
+        color: #FFF;
+        text-align: center;
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        border: none;
+    }
+    /*=====================
+    UPRAVA/EDITACE LIGY - PAGE
+    =====================*/
+    main div.container.mx-auto div.w-full div.w-full div.px-6.py-4.bg-gray-100.shadow.border.boreder-gray-200.overflow-hidden form div.mb-4 {
+        text-align: left;
+        margin: 0 0 20px 0;
+    }
+    main div.container.mx-auto div.w-full div.w-full div.px-6.py-4.bg-gray-100.shadow.border.boreder-gray-200.overflow-hidden form div.flex.items-center.justify-end.mt-4 button {
+        border-radius: 6px;
+        background: linear-gradient(270deg, #DC2626 0%, #991B1B 100%);
+        box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.16);
+        color: #FFF;
+        font-family: 'Nunito';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    main div.container.mx-auto div.w-full div.w-full.px-6 {
+        padding: 0 15px;
+    }
+    main div.container.mx-auto div.w-full div.w-full.px-6 div {
+        text-align: left;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        background: transparent;
+        border: none;
+        box-shadow: none;
+        border-radius: 0;
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px;
+    }
+    main div.container.mx-auto div.w-full div.w-full.px-6 div span {
+        padding: 0;
+        margin: 0;
+        min-width: 50%;
+        text-align: left;
+        display: block;
+        background: transparent;
+        border: none;
+        box-shadow: none;
+    }
+    main div.container.mx-auto div.w-full div.w-full.px-6 div.mx-auto.my-3 {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+    }
+    main div.container.mx-auto div.w-full div.w-full.px-6 div.mx-auto.my-3 div img {
+        border-radius: 50%;
+    }
+    main div.container.mx-auto div.w-full div.w-full.px-6 div:last-child {
+        flex-direction: column;
+    }
+    main div.container.mx-auto div.w-full div.w-full.px-6 div:last-child table.w-full {
+        margin-bottom: 25px;
+    }
+    main div.container.mx-auto div.w-full div.w-full.px-6 div:last-child table.w-full tbody {
+        display: flex;
+        flex-direction: column;
+    }
+    main div.container.mx-auto div.w-full div.w-full.px-6 div:last-child table.w-full tbody tr {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 100%;
+
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 16px;
+    }
+    main div.container.mx-auto div.w-full div.w-full.px-6 div:last-child table.w-full tbody tr.text-left {
+        box-shadow: none;
+        border: none;
+        border-radius: 8px 8px 0px 0px;
+        background: #B91C1C;
+        color: #fff;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    main div.container.mx-auto div.w-full div.w-full.px-6 div:last-child table.w-full thead tr.bg-red-700.text-white.font-bold th {
+        text-align: left;
+    }
+    main div.container.mx-auto div.w-full div.w-full.px-6 div:last-child table.w-full tbody tr th, td {
+        padding: 8px 5px;
+        min-width: 150px;
+    }
+    main div.container.mx-auto div.w-full div.w-full.text-sm div.flex.flex-col table.text-normal tbody tr.border-b {
+        margin: 0 15px;
+        padding: 14px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        min-height: 106px;
+        border: none;
+        position: relative;
+        margin-bottom: 10px;
+    }
+    main div.container.mx-auto div.w-full div.w-full.text-sm div.flex.flex-col table.text-normal tbody tr.border-b td {
+        color: #000;
+        text-align: left;
+        font-family: 'Nunito';
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 0;
+        min-width: 100%;
+    }
+    main div.container.mx-auto div.w-full div.w-full.text-sm div.flex.flex-col table.text-normal tbody tr.border-b td:last-child {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    main div.container.mx-auto div.w-full div.w-full.text-sm div.flex.flex-col table.text-normal tbody tr.border-b td:last-child a {
+        color: #fff;
+        text-align: center;
+        font-family: 'Nunito';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;    
+        border-radius: 6px;
+        background: linear-gradient(270deg, #DC2626 0%, #991B1B 100%);
+        box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.16);
+        border: none;
+        padding: 6px;
+    }
+    main div.container.mx-auto div.w-full div.w-full.text-sm div.flex.flex-col table.text-normal tbody tr.border-b td:last-child form button {
+        color: #fff;
+        border-radius: 6px;
+        background: linear-gradient(270deg, #DC2626 0%, #991B1B 100%);
+        box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.16);
+        text-align: center;
+        font-family: 'Nunito';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border: none;
+        padding: 6px;
+    }
+    /*=====================
+    VYTVORENI TYMU - PAGE
+    =====================*/
+    main div.container.mx-auto div.w-full div.w-full div.px-6.py-4.shadow.border.overflow-hidden.bg-gray-100 {
+        padding: 0 15px;
+        margin: 0;
+        background: none;
+        border: none;
+        box-shadow: none;
+    }
+    main div.container.mx-auto div.w-full div.w-full div.px-6.py-4.shadow.border.overflow-hidden.bg-gray-100 form div.mb-4 {
+        text-align: left;
+        margin: 0 0 20px 0;
+    }
+    main div.container.mx-auto div.w-full div.w-full div.px-6.py-4.shadow.border.overflow-hidden.bg-gray-100 form div.mb-4 label {
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    main div.container.mx-auto div.w-full div.w-full div.px-6.py-4.shadow.border.overflow-hidden.bg-gray-100 form div.mb-4 input {
+        border-radius: 6px;
+        background: #FFF;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07);
+        border: none;
+    }
+    main div.container.mx-auto div.w-full div.w-full div.px-6.py-4.shadow.border.overflow-hidden.bg-gray-100 form div.mb-4 select {
+        border-radius: 6px;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07);
+        border: none;
+    }
+    main div.container.mx-auto div.w-full div.w-full div.px-6.py-4.shadow.border.overflow-hidden.bg-gray-100 form div.mb-4 textarea {
+        border-radius: 6px;
+        background: #FFF;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07);
+        border: none;
+    }
+    main div.container.mx-auto div.w-full div.w-full div.px-6.py-4.shadow.border.overflow-hidden.bg-gray-100 form div.flex.items-center.justify-end.mt-4 button {
+        border-radius: 6px;
+        background: linear-gradient(270deg, #DC2626 0%, #991B1B 100%);
+        box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.16);
+        color: #FFF;
+        font-family: 'Nunito';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0;
+    }
+    /*=====================
+    VYTVORENI NOVEHO CLENA - PAGE
+    =====================*/
+    main div.container.mx-auto div.w-full div.w-full div.px-6.py-4.shadow.border.overflow-hidden.bg-gray-100 form.flex.flex-col.space-y-4 {
+        margin: 0;
+    }
+    main div.container.mx-auto div.w-full div.w-full div.px-6.py-4.shadow.border.overflow-hidden.bg-gray-100 form.flex.flex-col.space-y-4 div.w-full {
+        margin: 0 0 20px 0;
+    }
+    main div.container.mx-auto div.w-full div.w-full div.px-6.py-4.shadow.border.overflow-hidden.bg-gray-100 form.flex.flex-col.space-y-4 div.w-full label {
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    main div.container.mx-auto div.w-full div.w-full div.px-6.py-4.shadow.border.overflow-hidden.bg-gray-100 form.flex.flex-col.space-y-4 div.w-full input {
+        border-radius: 6px;
+        background: #FFF;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07);
+        border: none;
+    }
+    main div.container.mx-auto div.w-full div.w-full div.px-6.py-4.shadow.border.overflow-hidden.bg-gray-100 form.flex.flex-col.space-y-4 div.w-full select {
+        border-radius: 6px;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07);
+        border: none;
+    }
+    main div.container.mx-auto div.w-full div.w-full div.px-6.py-4.shadow.border.overflow-hidden.bg-gray-100 form.flex.flex-col.space-y-4 div.w-full div {
+        color: #000;
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0 0 10px;
+    }
+    main div.container.mx-auto div.w-full div.w-full div.px-6.py-4.shadow.border.overflow-hidden.bg-gray-100 form.flex.flex-col.space-y-4 div.w-full div.text-xs.text-blue-700.ml-6 {
+        color: #ff0000;
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    /*=====================
+    GLOBAL ADJUSTMENTS
+    =====================*/
+    #footer div.container.mx-auto.text-xs.text-gray-600.pb-2 {
+        display: block;
+        background: #2C2C2C;
+        color: #FFF;
+        text-align: center;
+        font-family: 'Nunito';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 17px;
+        padding: 15px;
+        margin: 0 auto;
+        min-width: 100%;
+    }
+    #footer div.mx-auto.bg-gradient-to-r.from-yellow-400.to-red-600.pt-4 {
+        min-width: 100%;
+    }
+    #header div.min-h-screen.bg-white.px-2 div.mx-auto.py-4.flex.flex-col.items-center.justify-center {
+        display: flex;
+    }
+    
+    #footer div.mx-auto.py-4.flex.flex-col.items-center.justify-center a.my-3 {
+        display: none;
+    }
+    #footer div.mx-auto.py-4.flex.flex-col.items-center.justify-center {
+        padding: 0;
+        min-width: 100%;
+    }
+    #footer div.mx-auto.py-4.flex.flex-col.items-center.justify-center div.flex.flex-col.items-center.justify-end div.flex.space-x-4.mb-4.mx-auto {
+        width: 100%;
+        display: flex;
+        position: relative;
+        min-width: 100%;
+        right: 0;
+        left: 0;
+        margin: 0;
+        background: #fff;
+        top: 0;
+    }
+    #footer div.mx-auto.py-4.flex.flex-col.items-center.justify-center div.flex.flex-col.items-center.justify-end div.flex.space-x-4.mb-4.mx-auto:before {
+        content: none;
+    }
+    div.flex.flex-col.items-center.justify-end div.flex.space-x-4.mb-4.mx-auto img {
+        display: block;
+    }
+    /* aktuálně nefunkční */
+    #custom-menu {
+        position: absolute;
+        top: 16px;
+        z-index: 1000;
+        right: 0;
+    }
+    #custom-menu img {
+        display: block;
+    }
+    #custom-menu .custom-menu-icon {
+        position: absolute;
+        right: 75px;
+        top: 5px;
+        width: max-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+    }
+    #custom-menu div.flex.custom-menu-links div.custom-menu-link a {
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 36px;
+        font-style: normal;
+    }
+    #custom-menu div.flex.custom-menu-links {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        right: 0px;
+        left: auto;
+        top: 60px;
+        width: max-content;
+        padding: 12px 27px;
+        border-radius: 8px 0 8px 8px;
+        min-width: 179px;
+        text-align: left;
+        background-color: rgb(185 28 28/var(--tw-bg-opacity));
+    }
+    main {
+        min-height: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+    }
+    main section.container {
+        min-width: 100% !important;
+    }
+    main div.container {
+        min-width: 100% !important;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.px-6.py-4.bg-gray-100.shadow.border.boreder-gray-200.overflow-hidden form div.flex.flex-col.mb-4.space-y-4 div {
+        margin: 0;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.px-6.py-4.bg-gray-100.shadow.border.boreder-gray-200.overflow-hidden form div.mb-4 div.tox.tox-tinymce.tox-platform-touch {
+        margin: 0;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.px-6.py-4.bg-gray-100.shadow.border.boreder-gray-200.overflow-hidden form div.mb-4 div.tox.tox-tinymce.tox-platform-touch div {
+        margin: 0;
+    }
+    main.mt-0 div.container.mx-auto div.w-full div.w-full div.w-full div.px-6.py-4.bg-white.shadow-md.overflow-hidden {
+        background: transparent;
+        box-shadow: none;
+    }
+    /* inputs */
+    main.mt-0 div.container.mx-auto form #logo, #instructions {
+        margin-left: 0 !important;
+        border: none !important;
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: flex-start !important;
+        align-items: center !important;
+        border-radius: 6px !important;
+        background: #FFF !important;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.07) !important;
+        padding: 4px !important;
+        color: #000 !important;
+        font-family: 'Nunito' !important;
+        font-size: 14px !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        line-height: 32px !important;
+    }
+    main.mt-0 div.container.mx-auto form #logo::file-selector-button, #instructions::file-selector-button {
+        position: relative;
+        float: right;
+        margin: 0;
+        padding: 7px 12px;
+        border: none;
+        color: #FFF;
+        text-align: center;
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        border-radius: 6px;
+        background: linear-gradient(315deg, #636363 0%, #3A3A3A 100%);
+        box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.16);
+    }
+    /* input checked styling */
+    [type=checkbox], [type=radio] {
+        border-width: 0;
+        fill: #FFF;
+        filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.07));
+    }
+    [type=radio]:checked {
+        background-image: none;
+    }
+    [type=checkbox]:checked:focus, [type=checkbox]:checked:hover, [type=radio]:checked:focus, [type=radio]:checked:hover {
+        border-color: #fff;
+    }
+    [type=checkbox]:checked, [type=radio]:checked {
+        height: 1rem;
+        width: 1rem;
+        color: #eb2525;
+        background-color: #fff;
+        border-color: #ffffff !important;
+        border: 5px solid #fff !important;
+        background: linear-gradient(270deg, #B91C1C 0%, #991B1B 100%) !important;
+        filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.16));
+    }
+    [type=checkbox]:focus, [type=radio]:focus {
+        outline: none;
+        outline-offset: 0;
+        --tw-ring-color: none;
+        box-shadow: none;
+    }
+    #place:before {
+        content: url("https://matej.webotvurci.cz/pozarnisporthasicovo-ikony/9458776_ecommerce_map_pin_location_address_icon.svg");
+        width: 20px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #start:before {
+        content: url("https://matej.webotvurci.cz/pozarnisporthasicovo-ikony/start-flag-8257.svg");
+        width: 20px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #start[type="datetime-local"]:before {
+        content: "";
+    }
+    #time_to_log_in::before {
+        content: url("https://matej.webotvurci.cz/pozarnisporthasicovo-ikony/Page-1.svg");
+        width: 20px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #contact:before {
+        content: url("https://matej.webotvurci.cz/pozarnisporthasicovo-ikony/8665646_phone_communication_icon.svg");
+        width: 20px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #instruction:before {
+        content: url("https://matej.webotvurci.cz/pozarnisporthasicovo-ikony/8665578_file_document_icon.svg");
+        width: 20px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #capacity:before {
+        content: url("https://matej.webotvurci.cz/pozarnisporthasicovo-ikony/9044570_in_progress_icon.svg");
+        width: 20px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #description::before {
+        content: url("https://matej.webotvurci.cz/pozarnisporthasicovo-ikony/9041227_info_circle_fill_icon.svg");
+        width: 20px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #description p {
+        color: #000;
+        font-size: 12px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0 0 0 35px;
+    }
+
+    #description div p {
+        margin: 0;
+    }
+
+    .table-div {
+        overflow-x: auto;
+    }
+    .table-div table tbody {
+        display: block;
+    }
+}
